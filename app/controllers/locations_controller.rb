@@ -3,8 +3,8 @@ class LocationsController < ApplicationController
 
   # GET /locations
   def index
-    @locations = Location.all
-
+    @locations = Merchant.all
+    puts "hellow this is #{params}"
     render json: @locations
   end
 
