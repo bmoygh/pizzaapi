@@ -3,9 +3,8 @@ class LocationsController < ApplicationController
 
   # GET /locations
   def index
-    @locations = Merchant.all
-    puts "hellow this is #{params}"
-    render json: @locations
+    @merchant_locations = Merchant.find(params[:merchant_id])
+    render json: @merchant_locations, serializer: MerchantSingularSerializer
   end
 
   # GET /locations/1

@@ -10,7 +10,7 @@ class MerchantsController < ApplicationController
 
   # GET /merchants/1
   def show
-    render json: @merchant
+    render json: @merchant, serializer: MerchantSingularSerializer
   end
 
   # POST /merchants
@@ -36,6 +36,10 @@ class MerchantsController < ApplicationController
   # DELETE /merchants/1
   def destroy
     @merchant.destroy
+  end
+
+  def secret_menu
+    render json: File.read("#{Rails.root}/public/order_payload.json")
   end
 
   private

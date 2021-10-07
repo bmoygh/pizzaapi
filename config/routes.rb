@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-
+  get "merchants/secret_menu"
   resources :merchants do
     resources :locations
   end
