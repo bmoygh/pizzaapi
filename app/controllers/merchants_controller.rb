@@ -39,7 +39,7 @@ class MerchantsController < ApplicationController
   end
 
   def secret_menu
-    render json: File.read("#{Rails.root}/public/order_payload.json")
+    render json: File.read("#{Rails.root}/public/menu_payload.json")
   end
 
   private
