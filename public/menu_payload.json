@@ -24,10 +24,10 @@
   }],
   "items": [{
       "external_id": "483f-86da-eb1e4b68639a",
-      "name": "12oz Rib Eye",
-      "internal_name": "12oz Rib Eye",
-      "description": "12oz Rib Eye",
-      "price": 17.99,
+      "name": "50oz Rib Eye",
+      "internal_name": "50oz Rib Eye",
+      "description": "50oz Rib Eye",
+      "price": 59.99,
       "tax_rate": null,
       "miscellaneous_taxes": [],
       "modifier_prompts": [
