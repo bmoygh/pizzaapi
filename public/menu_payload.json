@@ -24,10 +24,10 @@
   }],
   "items": [{
       "external_id": "483f-86da-eb1e4b68639a",
-      "name": "50oz Rib Eye",
-      "internal_name": "50oz Rib Eye",
-      "description": "50oz Rib Eye",
-      "price": 59.99,
+      "name": "Adris Bomb Fried Chicken",
+      "internal_name": "Adris Bomb Fried Chicken",
+      "description": "Adris Bomb Fried Chicken",
+      "price": 99.99,
       "tax_rate": null,
       "miscellaneous_taxes": [],
       "modifier_prompts": [
