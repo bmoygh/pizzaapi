@@ -68,6 +68,27 @@
       }
     },
     {
+      "external_id": "4a6d-93c2-77be78045b6a",
+      "name": "Hoa's favorite dish",
+      "internal_name": "Hoa's favorite dish",
+      "description": "Hoa's favorite dish",
+      "price": 50.99,
+      "tax_rate": null,
+      "miscellaneous_taxes": [],
+      "modifier_prompts": [],
+      "schedule_ids": [],
+      "tags": [],
+      "lead_time_seconds": 0,
+      "calorie_content": "",
+      "metadata": "",
+      "availability_ranges": [],
+      "allowable_order_types": [],
+      "availability_override": "",
+      "media": {
+        "source_url": ""
+      }
+    },
+    {
       "external_id": "41fd-8c93-24a87211068e",
       "name": "(Sand.) Hamburger",
       "internal_name": "(Sand.) Hamburger",
