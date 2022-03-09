@@ -45,6 +45,28 @@
       "media": {
         "source_url": ""
       }
+    },{
+      "external_id": "483f-86da-eb1e4b68639a",
+      "name": "TBD Cheese Pizza",
+      "internal_name": "TBD Cheese Pizza",
+      "description": "TBD Cheese Pizza",
+      "price": 11.00,
+      "tax_rate": null,
+      "miscellaneous_taxes": [],
+      "modifier_prompts": [
+        "6115784edcf1e49912se9064"
+      ],
+      "schedule_ids": [],
+      "tags": [],
+      "lead_time_seconds": 0,
+      "calorie_content": "",
+      "metadata": "",
+      "availability_ranges": [],
+      "allowable_order_types": [],
+      "availability_override": "",
+      "media": {
+        "source_url": ""
+      }
     },
     {
       "external_id": "4a6d-93c2-77be78045b6a",
@@ -140,6 +162,29 @@
         "minimum_quantity": 1,
         "maximum_quantity": 10
       }
+    },{
+      "external_id": "6115784edcf1e49912se9064",
+      "name": "Toppings",
+      "internal_name": "Toppings",
+      "modifier_list": "4295-b241-d3ceec93a8d7",
+      "display_settings": null,
+      "defaulted_modifiers": [],
+      "modifier_prompt_free_settings": null,
+      "modifier_quantity_settings": {
+        "477f-99ae-6afd01626418": {
+          "default_units": 0,
+          "maximum_units": 1,
+          "unit_increment": 1
+        }
+      },
+      "modifier_prompt_quantity_settings": {
+        "minimum_units": 1,
+        "maximum_units": 1
+      },
+      "default_selection_model": {
+        "minimum_quantity": 1,
+        "maximum_quantity": 10
+      }
     },
     {
       "external_id": "6115784edcf1e49912fe90d5",
@@ -212,6 +257,12 @@
         "417c-8d5f-d154b729b72f",
         "4cbd-b524-c5fa4e89c238"
       ]
+    },{
+      "external_id": "4295-b241-d3ceec93a8d7",
+      "name": "Toppings",
+      "modifiers": [
+        "477f-99ae-6afd01626418"
+      ]
     },
     {
       "external_id": "4a25-8e72-1f06b59a017e",
@@ -233,6 +284,25 @@
       "name": "Beef Prep",
       "internal_name": "Beef Prep",
       "description": "",
+      "calorie_content": "",
+      "default_price": 0,
+      "tags": [],
+      "tax_rate": null,
+      "miscellaneous_taxes": [],
+      "media": {
+        "source_url": ""
+      },
+      "sized_prices": [],
+      "submodifiers": [],
+      "metadata": "",
+      "schedule_ids": [],
+      "availability_ranges": [],
+      "availability_override": ""
+    },{
+      "external_id": "477f-99ae-6afd01626418",
+      "name": "Cheese - Default",
+      "internal_name": "Cheese - Default",
+      "description": "Base cheese pizza",
       "calorie_content": "",
       "default_price": 0,
       "tags": [],
