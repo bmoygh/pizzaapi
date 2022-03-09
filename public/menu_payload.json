@@ -166,7 +166,7 @@
       "external_id": "6115784edcf1e49912se9064",
       "name": "Toppings",
       "internal_name": "Toppings",
-      "modifier_list": "4295-b241-d3ceec93a8d7",
+      "modifier_list": "4295-b241-d3ceec93a8d8",
       "display_settings": null,
       "defaulted_modifiers": [],
       "modifier_prompt_free_settings": null,
@@ -258,7 +258,7 @@
         "4cbd-b524-c5fa4e89c238"
       ]
     },{
-      "external_id": "4295-b241-d3ceec93a8d7",
+      "external_id": "4295-b241-d3ceec93a8d8",
       "name": "Toppings",
       "modifiers": [
         "477f-99ae-6afd01626418"
