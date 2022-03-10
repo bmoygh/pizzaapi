@@ -170,7 +170,9 @@
       "modifier_list": "4295-b241-d3ceec93a8d8",
       "display_settings": null,
       "defaulted_modifiers": [],
-      "modifier_prompt_free_settings": "477f-99ae-6afd01626418",
+      "modifier_prompt_free_settings": {
+        "free_modifiers": 1
+      },
       "modifier_quantity_settings": {
         "477f-99ae-6afd01626418": {
           "default_units": 0,
@@ -328,25 +330,6 @@
       "name": "Cheese",
       "internal_name": "Cheese",
       "description": "Cheese",
-      "calorie_content": "",
-      "default_price": 1.00,
-      "tags": [],
-      "tax_rate": null,
-      "miscellaneous_taxes": [],
-      "media": {
-        "source_url": ""
-      },
-      "sized_prices": [],
-      "submodifiers": [],
-      "metadata": "",
-      "schedule_ids": [],
-      "availability_ranges": [],
-      "availability_override": ""
-    },{
-      "external_id": "477f-99ae-6afd01626419",
-      "name": "Pepperoni",
-      "internal_name": "Pepperoni",
-      "description": "Pepperoni",
       "calorie_content": "",
       "default_price": 1.00,
       "tags": [],
