@@ -457,6 +457,25 @@
       "schedule_ids": [],
       "availability_ranges": [],
       "availability_override": ""
+    },{
+      "external_id": "477f-99ae-6afd01626422",
+      "name": "Meatball",
+      "internal_name": "Meatball",
+      "description": "Meatball",
+      "calorie_content": "",
+      "default_price": 1.00,
+      "tags": [],
+      "tax_rate": null,
+      "miscellaneous_taxes": [],
+      "media": {
+        "source_url": ""
+      },
+      "sized_prices": [],
+      "submodifiers": [],
+      "metadata": "",
+      "schedule_ids": [],
+      "availability_ranges": [],
+      "availability_override": ""
     },
     {
       "external_id": "417c-8d5f-d154b729b72f",
