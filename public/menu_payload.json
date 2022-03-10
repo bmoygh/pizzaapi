@@ -55,8 +55,7 @@
       "tax_rate": null,
       "miscellaneous_taxes": [],
       "modifier_prompts": [
-        "6115784edcf1e49912fe9060",
-        "6115784edcf1e49912fe90d5"
+        "6115784edcf1e49912se9064"
       ],
       "schedule_ids": [],
       "tags": [],
@@ -263,7 +262,11 @@
       "external_id": "4295-b241-d3ceec93a8d8",
       "name": "Toppings",
       "modifiers": [
-        "477f-99ae-6afd01626418"
+        "477f-99ae-6afd01626418",
+        "477f-99ae-6afd01626419",
+        "477f-99ae-6afd01626420",
+        "477f-99ae-6afd01626421",
+        "477f-99ae-6afd01626422"
       ]
     },
     {
@@ -302,11 +305,49 @@
       "availability_override": ""
     },{
       "external_id": "477f-99ae-6afd01626418",
-      "name": "Cheese - Default",
-      "internal_name": "Cheese - Default",
-      "description": "Base cheese pizza",
+      "name": "Cheese",
+      "internal_name": "Cheese",
+      "description": "Cheese",
       "calorie_content": "",
-      "default_price": 0,
+      "default_price": 1.00,
+      "tags": [],
+      "tax_rate": null,
+      "miscellaneous_taxes": [],
+      "media": {
+        "source_url": ""
+      },
+      "sized_prices": [],
+      "submodifiers": [],
+      "metadata": "",
+      "schedule_ids": [],
+      "availability_ranges": [],
+      "availability_override": ""
+    },{
+      "external_id": "477f-99ae-6afd01626419",
+      "name": "Pepperoni",
+      "internal_name": "Pepperoni",
+      "description": "Pepperoni",
+      "calorie_content": "",
+      "default_price": 1.00,
+      "tags": [],
+      "tax_rate": null,
+      "miscellaneous_taxes": [],
+      "media": {
+        "source_url": ""
+      },
+      "sized_prices": [],
+      "submodifiers": [],
+      "metadata": "",
+      "schedule_ids": [],
+      "availability_ranges": [],
+      "availability_override": ""
+    },{
+      "external_id": "477f-99ae-6afd01626419",
+      "name": "Pepperoni",
+      "internal_name": "Pepperoni",
+      "description": "Pepperoni",
+      "calorie_content": "",
+      "default_price": 1.00,
       "tags": [],
       "tax_rate": null,
       "miscellaneous_taxes": [],
@@ -339,8 +380,26 @@
       "schedule_ids": [],
       "availability_ranges": [],
       "availability_override": ""
-    },
-    {
+    },{
+      "external_id": "477f-99ae-6afd01626420",
+      "name": "Garlic",
+      "internal_name": "Garlic",
+      "description": "Garlic",
+      "calorie_content": "",
+      "default_price": 1.00,
+      "tags": [],
+      "tax_rate": null,
+      "miscellaneous_taxes": [],
+      "media": {
+        "source_url": ""
+      },
+      "sized_prices": [],
+      "submodifiers": [],
+      "metadata": "",
+      "schedule_ids": [],
+      "availability_ranges": [],
+      "availability_override": ""
+    },{
       "external_id": "4d75-8fe9-c07663da7d50",
       "name": "Beef Prep Med Rare",
       "internal_name": "Beef Prep Med Rare",
@@ -367,6 +426,25 @@
       "description": "",
       "calorie_content": "",
       "default_price": 0,
+      "tags": [],
+      "tax_rate": null,
+      "miscellaneous_taxes": [],
+      "media": {
+        "source_url": ""
+      },
+      "sized_prices": [],
+      "submodifiers": [],
+      "metadata": "",
+      "schedule_ids": [],
+      "availability_ranges": [],
+      "availability_override": ""
+    },{
+      "external_id": "477f-99ae-6afd01626421",
+      "name": "Sardines",
+      "internal_name": "Sardines",
+      "description": "Sardines",
+      "calorie_content": "",
+      "default_price": 1.00,
       "tags": [],
       "tax_rate": null,
       "miscellaneous_taxes": [],
