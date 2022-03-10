@@ -13,7 +13,8 @@
     "items": [
       "483f-86da-eb1e4b68639a",
       "4a6d-93c2-77be78045b6a",
-      "41fd-8c93-24a87211068e"
+      "41fd-8c93-24a87211068e",
+      "3d3e6e26-4d7c-4b57-a12d-6e4b7dbeb695"
     ],
     "availability_ranges": [],
     "schedule_ids": [],
@@ -27,7 +28,7 @@
       "name": "Adris Bomb Fried Chicken",
       "internal_name": "Adris Bomb Fried Chicken",
       "description": "Adris Bomb Fried Chicken",
-      "price": 99.99,
+      "price": 19.99,
       "tax_rate": null,
       "miscellaneous_taxes": [],
       "modifier_prompts": [
@@ -46,15 +47,16 @@
         "source_url": ""
       }
     },{
-      "external_id": "483f-86da-eb1e4b686392",
-      "name": "TBD Cheese Pizza",
-      "internal_name": "TBD Cheese Pizza",
-      "description": "TBD Cheese Pizza",
-      "price": 11.00,
+      "external_id": "3d3e6e26-4d7c-4b57-a12d-6e4b7dbeb695",
+      "name": "Cheese Pizza",
+      "internal_name": "Cheese Pizza",
+      "description": "Cheese Pizza",
+      "price": 10.00,
       "tax_rate": null,
       "miscellaneous_taxes": [],
       "modifier_prompts": [
-        "6115784edcf1e49912se9064"
+        "6115784edcf1e49912fe9060",
+        "6115784edcf1e49912fe90d5"
       ],
       "schedule_ids": [],
       "tags": [],
