@@ -176,6 +176,26 @@
           "default_units": 1,
           "maximum_units": 1,
           "unit_increment": 1
+        },
+        "477f-99ae-6afd01626419": {
+          "default_units": 0,
+          "maximum_units": 10,
+          "unit_increment": 1
+        },
+        "477f-99ae-6afd01626420": {
+          "default_units": 0,
+          "maximum_units": 10,
+          "unit_increment": 1
+        },
+        "477f-99ae-6afd01626421": {
+          "default_units": 0,
+          "maximum_units": 10,
+          "unit_increment": 1
+        },
+        "477f-99ae-6afd01626422": {
+          "default_units": 0,
+          "maximum_units": 10,
+          "unit_increment": 1
         }
       },
       "modifier_prompt_quantity_settings": {
