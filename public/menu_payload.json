@@ -175,7 +175,7 @@
       },
       "modifier_quantity_settings": {
         "477f-99ae-6afd01626418": {
-          "default_units": 0,
+          "default_units": 1,
           "maximum_units": 1,
           "unit_increment": 1
         },
