@@ -49,9 +49,9 @@
       }
     },{
       "external_id": "3d3e6e26-4d7c-4b57-a12d-6e4b7dbeb695",
-      "name": "Cheese Pizza",
-      "internal_name": "Cheese Pizza",
-      "description": "Cheese Pizza",
+      "name": "BM's Cheese Pizza",
+      "internal_name": "BM's Cheese Pizza",
+      "description": "BM's Cheese Pizza",
       "price": 10.00,
       "tax_rate": null,
       "miscellaneous_taxes": [],
