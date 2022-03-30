@@ -29,7 +29,7 @@
       "name": "Adris Bomb Fried Chicken",
       "internal_name": "Adris Bomb Fried Chicken",
       "description": "Adris Bomb Fried Chicken",
-      "price": 19.99,
+      "price": 9.99,
       "tax_rate": null,
       "miscellaneous_taxes": [],
       "modifier_prompts": [
@@ -191,13 +191,13 @@
       "internal_name": "Toppings",
       "modifier_list": "4295-b241-d3ceec93a8d8",
       "display_settings": null,
-      "defaulted_modifiers": ["477f-99ae-6afd01626418"],
+      "defaulted_modifiers": [],
       "modifier_prompt_free_settings": {
         "free_modifiers": 1
       },
       "modifier_quantity_settings": {
         "477f-99ae-6afd01626418": {
-          "default_units": 1,
+          "default_units": 0,
           "maximum_units": 1,
           "unit_increment": 1
         },
@@ -422,9 +422,9 @@
       "availability_override": ""
     },{
       "external_id": "477f-99ae-6afd01626418",
-      "name": "Cheese",
-      "internal_name": "Cheese",
-      "description": "Cheese",
+      "name": "Bacon",
+      "internal_name": "Bacon",
+      "description": "Bacon",
       "calorie_content": "",
       "default_price": 1.00,
       "tags": [],
