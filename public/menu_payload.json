@@ -223,11 +223,11 @@
         }
       },
       "modifier_prompt_quantity_settings": {
-        "minimum_units": 1,
+        "minimum_units": 0,
         "maximum_units": 10
       },
       "default_selection_model": {
-        "minimum_quantity": 1,
+        "minimum_quantity": 0,
         "maximum_quantity": 10
       }
     },{
