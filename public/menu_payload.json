@@ -14,7 +14,7 @@
       "483f-86da-eb1e4b68639a",
       "4a6d-93c2-77be78045b6a",
       "41fd-8c93-24a87211068e",
-      "3d3e6e26-4d7c-4b57-a12d-6e4b7dbeb695",
+      "cheese_pizza",
       "ecc458e6-17af-498f-8e83-c6c656700a5a"
     ],
     "availability_ranges": [],
@@ -38,6 +38,28 @@
       ],
       "schedule_ids": [],
       "tags": [],
+      "nutrition": {
+        "calcium": 20,
+        "caloric_description": "850 cal – 1100 cal",
+        "calories": 690,
+        "calories_from_fat": 100,
+        "cholesterol": 95,
+        "dietary_fiber": 80,
+        "ingredient_description": "Lentils, Grilled Bell Peppers",
+        "protein": 70,
+        "saturated_fat": 60,
+        "serving_size": 10,
+        "sodium": 50,
+        "sugar": 40,
+        "tags": [
+          "Kosher",
+          "Vegan"
+        ],
+        "total_carbohydrate": 90,
+        "trans_fat": 30,
+        "vitamin_a": 25,
+        "vitamin_d": 20
+      },
       "lead_time_seconds": 0,
       "calorie_content": "",
       "metadata": "",
@@ -48,7 +70,7 @@
         "source_url": ""
       }
     },{
-      "external_id": "3d3e6e26-4d7c-4b57-a12d-6e4b7dbeb695",
+      "external_id": "cheese_pizza",
       "name": "BM's Cheese Pizza",
       "internal_name": "BM's Cheese Pizza",
       "description": "BM's Cheese Pizza",
@@ -57,6 +79,9 @@
       "miscellaneous_taxes": [],
       "modifier_prompts": [
         "6115784edcf1e49912se9064"
+      ],
+      "option_groups": [
+        "CREATE_YOUR_OWN_SIZES"
       ],
       "schedule_ids": [],
       "tags": [],
