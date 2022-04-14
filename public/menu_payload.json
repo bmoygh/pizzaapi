@@ -203,7 +203,7 @@
         }
       },
       "modifier_prompt_quantity_settings": {
-        "minimum_units": 2,
+        "minimum_units": 0,
         "maximum_units": 5
       },
       "default_selection_model": {
