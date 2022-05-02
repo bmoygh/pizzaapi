@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   resources :merchants do
     resources :locations
   end
+  get 'webhooks/gh_inbound' => 'webhooks#get', as: :logs_webhooks
+  post 'webhooks/gh_inbound' => 'webhooks#receive', as: :receive_webhooks
+
   resources :clients
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

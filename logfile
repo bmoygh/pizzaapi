@@ -22,3 +22,32 @@
 2021-09-07 07:32:30.511 EDT [56829] LOG:  background worker "logical replication launcher" (PID 56836) exited with exit code 1
 2021-09-07 07:32:30.511 EDT [56831] LOG:  shutting down
 2021-09-07 07:32:30.522 EDT [56829] LOG:  database system is shut down
+2022-04-26 09:00:56.618 EDT [36120] LOG:  starting PostgreSQL 13.0 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.11), 64-bit
+2022-04-26 09:00:56.621 EDT [36120] LOG:  listening on IPv6 address "::1", port 5432
+2022-04-26 09:00:56.621 EDT [36120] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-04-26 09:00:56.622 EDT [36120] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-04-26 09:00:56.626 EDT [36121] LOG:  database system was shut down at 2022-04-26 08:59:56 EDT
+2022-04-26 09:00:56.629 EDT [36120] LOG:  database system is ready to accept connections
+2022-04-26 09:01:02.788 EDT [36120] LOG:  received fast shutdown request
+2022-04-26 09:01:02.788 EDT [36120] LOG:  aborting any active transactions
+2022-04-26 09:01:02.789 EDT [36120] LOG:  background worker "logical replication launcher" (PID 36127) exited with exit code 1
+2022-04-26 09:01:02.789 EDT [36122] LOG:  shutting down
+2022-04-26 09:01:02.795 EDT [36120] LOG:  database system is shut down
+2022-04-26 09:01:04.825 EDT [36430] LOG:  starting PostgreSQL 13.0 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.11), 64-bit
+2022-04-26 09:01:04.828 EDT [36430] LOG:  listening on IPv6 address "::1", port 5432
+2022-04-26 09:01:04.828 EDT [36430] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-04-26 09:01:04.829 EDT [36430] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-04-26 09:01:04.833 EDT [36433] LOG:  database system was shut down at 2022-04-26 09:01:02 EDT
+2022-04-26 09:01:04.836 EDT [36430] LOG:  database system is ready to accept connections
+2022-04-26 09:01:16.057 EDT [36739] FATAL:  database "gh_pizza_api_development" does not exist
+2022-04-26 09:01:16.259 EDT [36741] FATAL:  database "gh_pizza_api_development" does not exist
+2022-04-26 09:01:30.802 EDT [37106] FATAL:  database "bmoy" does not exist
+2022-04-26 09:03:32.524 EDT [38405] FATAL:  database "gh_pizza_api_development" does not exist
+2022-04-26 09:03:32.729 EDT [38407] FATAL:  database "gh_pizza_api_development" does not exist
+2022-04-26 09:03:34.027 EDT [38408] FATAL:  database "gh_pizza_api_development" does not exist
+2022-04-26 09:03:34.177 EDT [38409] FATAL:  database "gh_pizza_api_development" does not exist
+2022-04-26 09:04:35.868 EDT [38714] ERROR:  syntax error at or near "DATBASE" at character 8
+2022-04-26 09:04:35.868 EDT [38714] STATEMENT:  CREATE DATBASE gh_pizza_api_development
+	;
+2022-04-26 09:04:48.607 EDT [38714] ERROR:  syntax error at or near "DATBASE" at character 8
+2022-04-26 09:04:48.607 EDT [38714] STATEMENT:  CREATE DATBASE gh_pizza_api_development;
