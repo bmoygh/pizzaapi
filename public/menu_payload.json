@@ -26,10 +26,10 @@
   }],
   "items": [{
       "external_id": "483f-86da-eb1e4b68639a",
-      "name": "Brendan's Bomb Fried Chicken",
-      "internal_name": "Brendan's Bomb Fried Chicken",
-      "description": "Brendan's Bomb Fried Chicken",
-      "price": 9.99,
+      "name": "Alex's Bomb Fried Chicken",
+      "internal_name": "Alex's Bomb Fried Chicken",
+      "description": "Alex's Bomb Fried Chicken",
+      "price": 19.99,
       "tax_rate": null,
       "miscellaneous_taxes": [],
       "modifier_prompts": [
