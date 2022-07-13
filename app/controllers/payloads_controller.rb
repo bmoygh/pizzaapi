@@ -26,7 +26,6 @@ class PayloadsController < ApplicationController
 
   def receive
     data = JSON.parse(request.body.read)
-    binding.pry
     Payload.create(event_data: data)
   end
 
