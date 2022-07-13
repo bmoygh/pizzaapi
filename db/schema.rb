@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_22_173507) do
+ActiveRecord::Schema.define(version: 2022_07_13_132315) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -42,6 +42,14 @@ ActiveRecord::Schema.define(version: 2021_08_22_173507) do
     t.index ["client_id"], name: "index_merchants_on_client_id"
   end
 
-  add_foreign_key "locations", "merchants"
-  add_foreign_key "merchants", "clients"
+  create_table "payloads", force: :cascade do |t|
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "webhook_type"
+    t.string "event_type"
+    t.string "resource_type"
+    t.jsonb "event_data", default: {}
+    t.boolean "processed", default: false
+  end
+
 end
