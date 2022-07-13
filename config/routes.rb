@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
+  resources :payloads
   get "merchants/secret_menu"
   resources :merchants do
     resources :locations
   end
-  get 'webhooks/gh_inbound' => 'webhooks#get', as: :logs_webhooks
-  post 'webhooks/gh_inbound' => 'webhooks#receive', as: :receive_webhooks
+
+  # post 'grubhub_webhook' => 'grubhub#webhook'
+  post 'grubhub_webhook' => 'payloads#receive'
 
   resources :clients
 end
