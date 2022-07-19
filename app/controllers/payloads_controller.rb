@@ -29,6 +29,11 @@ class PayloadsController < ApplicationController
     Payload.create(event_data: data)
   end
 
+  def order_update
+    data = JSON.parse(request.body.read)
+    Payload.create(event_type: "Order Update", event_data: data)
+  end
+
   # PATCH/PUT /payloads/1
   def update
     if @payload.update(payload_params)

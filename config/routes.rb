@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   # post 'grubhub_webhook' => 'grubhub#webhook'
   post 'grubhub_webhook' => 'payloads#receive'
+  post 'order_update' => 'payloads#order_update'
 
   resources :clients
 end
