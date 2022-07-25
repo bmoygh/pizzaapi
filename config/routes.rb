@@ -5,9 +5,11 @@ Rails.application.routes.draw do
     resources :locations
   end
 
-  # post 'grubhub_webhook' => 'grubhub#webhook'
+  post 'order_validation' => 'payloads#order_validation'
   post 'grubhub_webhook' => 'payloads#receive'
   post 'order_update' => 'payloads#order_update'
-
+  post 'delivery_update' => 'payloads#delivery_update'
+  post 'merchant_pos_update' => 'payloads#merchant_pos_update'
+  post 'menu_ingestion_update' => 'payloads#menu_ingestion_update'
   resources :clients
 end
