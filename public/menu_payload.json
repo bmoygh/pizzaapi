@@ -15,8 +15,7 @@
       "4a6d-93c2-77be78045b6a",
       "41fd-8c93-24a87211068e",
       "cheese_pizza",
-      "ecc458e6-17af-498f-8e83-c6c656700a5a",
-      "Cookie Flavors - Four Pack"
+      "ecc458e6-17af-498f-8e83-c6c656700a5a"
     ],
     "availability_ranges": [],
     "schedule_ids": [],
@@ -161,23 +160,6 @@
       "media": {
         "source_url": ""
       }
-    }, 
-    {
-    "internal_name": "Cookie Flavors - Four Pack",
-    "display_settings": {
-        "display_type": "CHOOSE_MANY_REQUIRED"
-      },
-    "modifier_list": "flavors",
-    "name": "Cookie Flavors - Four Pack",
-    "external_id": "Cookie Flavors - Four Pack",
-    "modifier_prompt_quantity_settings": {
-        "minimum_units": 4,
-        "maximum_units": 4
-      },
-    "default_selection_model": {
-        "minimum_quantity": 1,
-        "maximum_quantity": 4
-      }
     }
   ],
   "modifier_prompts": [{
@@ -228,10 +210,6 @@
         "minimum_quantity": 1,
         "maximum_quantity": 10
       } 
-    },{ 
-      "name": "Cookie Flavors - Four Pack",
-      "modifiers": ["cookie_flavors"],
-      "external_id": "flavors"
     },{
       "external_id": "6115784edcf1e49912se9064",
       "name": "Toppings",
@@ -417,12 +395,6 @@
         "477f-99ae-6afd01626420",
         "477f-99ae-6afd01626421",
         "477f-99ae-6afd01626422"
-      ]
-    },{
-      "external_id": "cookie_flavors",
-      "name": "Cookie Flavors",
-      "modifiers": [
-        "chocolate_cookie"
       ]
     },{
       "external_id": "4295-b241-d3ceec93a8e9",
@@ -979,10 +951,6 @@
       "schedule_ids": [],
       "availability_ranges": [],
       "availability_override": ""
-    },{
-      "external_id": "chocolate_cookie",
-      "name": "Chocolate Chip",
-      "internal_name": "Chocolate Chip"
     }
   ],
   "normalized_menu": true,
