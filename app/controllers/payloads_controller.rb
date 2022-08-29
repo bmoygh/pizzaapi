@@ -3,7 +3,7 @@ class PayloadsController < ApplicationController
 
   # GET /payloads
   def index
-    @payloads = Payload.all
+    @payloads = Payload.all.order("created_at DESC")
 
     render json: @payloads
   end
