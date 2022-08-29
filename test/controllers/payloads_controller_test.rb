@@ -5,6 +5,11 @@ class PayloadsControllerTest < ActionDispatch::IntegrationTest
     @payload = payloads(:one)
   end
 
+  payload1 = {"uuid": "8lmOQUreEeeyj2n4OIYEmA",
+    "order_number": "505600836761409",
+    "is_test": false,
+    "status": "UNKNOWN"}
+
   test "should get index" do
     get payloads_url, as: :json
     assert_response :success
