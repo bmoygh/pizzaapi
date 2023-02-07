@@ -71,9 +71,9 @@
       }
     },{
       "external_id": "cheese_pizza",
-      "name": "BMOY's Cheese Pizza",
-      "internal_name": "BMOY's Cheese Pizza",
-      "description": "BMOY's Cheese Pizza",
+      "name": "Brendan's Cheese Pizza",
+      "internal_name": "Brendan's Cheese Pizza",
+      "description": "Brendan's Cheese Pizza",
       "price": 10.00,
       "tax_rate": null,
       "miscellaneous_taxes": [],
