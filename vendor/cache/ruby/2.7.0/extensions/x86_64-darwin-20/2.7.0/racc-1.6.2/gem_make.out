@@ -1,0 +1,17 @@
+current directory: /Users/bmoy/Desktop/fakeapi/pizzaapi/vendor/cache/ruby/2.7.0/gems/racc-1.6.2/ext/racc/cparse
+/Users/bmoy/.asdf/installs/ruby/2.7.2/bin/ruby -I /Users/bmoy/.asdf/installs/ruby/2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20230306-32437-10fqwzi.rb extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/bmoy/Desktop/fakeapi/pizzaapi/vendor/cache/ruby/2.7.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /Users/bmoy/Desktop/fakeapi/pizzaapi/vendor/cache/ruby/2.7.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/bmoy/Desktop/fakeapi/pizzaapi/vendor/cache/ruby/2.7.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20230306-32437-1b81qzu/racc
