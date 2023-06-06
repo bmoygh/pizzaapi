@@ -22,4 +22,4 @@ test:
 
 production:
   <<: *default
-  database: gh_pizza_api_prod
+  url: <%= ENV['DATABASE_URL'] %>
