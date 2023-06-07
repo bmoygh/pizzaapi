@@ -14,5 +14,6 @@ services:
         fromDatabase:
           name: pizza
           property: connectionString
+        sync: false
       - key: RAILS_MASTER_KEY
         sync: false
