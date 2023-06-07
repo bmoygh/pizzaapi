@@ -1,18 +1,18 @@
 databases:
-  - name: dpg-chvpqej3cv26tflsh7g0-a
-    databaseName: pizzaapi8
-    user: pizzaapi8_user
+  - name: dpg-ci09o8m4dad75tuqci8g-a
+    databaseName: moyrest_hydx
+    user: moyrest_user
 
 services:
   - type: web
-    name: dpg-chvpqej3cv26tflsh7g0-a
+    name: moyrest_hydx
     runtime: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: dpg-chvpqej3cv26tflsh7g0-a
+          name: moyrest_hydx
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
