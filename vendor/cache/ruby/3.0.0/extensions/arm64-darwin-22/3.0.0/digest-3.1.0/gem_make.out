@@ -1,0 +1,18 @@
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.0.0/gems/digest-3.1.0/ext/digest/sha2
+/Users/bmoy/.asdf/installs/ruby/3.0.6/bin/ruby -I /Users/bmoy/.asdf/installs/ruby/3.0.6/lib/ruby/3.0.0 -r ./siteconf20230627-26930-sa4kqq.rb extconf.rb
+checking for u_int8_t... yes
+checking for sys/cdefs.h... yes
+creating Makefile
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.0.0/gems/digest-3.1.0/ext/digest/sha2
+make DESTDIR\= clean
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.0.0/gems/digest-3.1.0/ext/digest/sha2
+make DESTDIR\=
+compiling sha2init.c
+compiling sha2.c
+linking shared-object digest/sha2.bundle
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.0.0/gems/digest-3.1.0/ext/digest/sha2
+make DESTDIR\= install
+/opt/homebrew/bin/ginstall -c -m 0755 sha2.bundle ./.gem.20230627-26930-nisk43/digest
