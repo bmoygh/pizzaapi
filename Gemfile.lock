@@ -216,7 +216,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   listen (~> 3.3)
-  pg (~> 1.4, >= 1.4.1)
+  pg
   pry-rails
   puma (~> 5.0)
   rails (~> 7.0.0)
@@ -224,7 +224,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 3.0.6p216
+   ruby 3.1.4p223
 
 BUNDLED WITH
    2.2.33
