@@ -9,7 +9,7 @@ gem 'rails', '~> 7.0.0'
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
-
+gem 'awesome_print'
 gem 'pry-rails', :group => :development
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'

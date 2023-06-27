@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
-  resources :payloads
-  get "merchants/secret_menu"
   resources :merchants do
     resources :locations
   end
-
+  resources :payloads
+  get "merchants/secret_menu"
   post 'order_validation' => 'payloads#order_validation'
   post 'grubhub_webhook' => 'payloads#receive'
   post 'order_update' => 'payloads#order_update'
