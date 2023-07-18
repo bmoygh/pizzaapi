@@ -207,8 +207,8 @@
         "maximum_units": 5
       },
       "default_selection_model": {
-        "minimum_quantity": 1,
-        "maximum_quantity": 10
+        "minimum_quantity": 0,
+        "maximum_quantity": 5
       } 
     },{
       "external_id": "6115784edcf1e49912se9064",
