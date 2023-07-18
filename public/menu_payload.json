@@ -223,27 +223,27 @@
       "modifier_quantity_settings": {
         "477f-99ae-6afd01626418": {
           "default_units": 0,
-          "maximum_units": 1,
+          "maximum_units": 2,
           "unit_increment": 1
         },
         "477f-99ae-6afd01626419": {
           "default_units": 0,
-          "maximum_units": 1,
+          "maximum_units": 2,
           "unit_increment": 1
         },
         "477f-99ae-6afd01626420": {
           "default_units": 0,
-          "maximum_units": 1,
+          "maximum_units": 2,
           "unit_increment": 1
         },
         "477f-99ae-6afd01626421": {
           "default_units": 0,
-          "maximum_units": 1,
+          "maximum_units": 2,
           "unit_increment": 1
         },
         "477f-99ae-6afd01626422": {
           "default_units": 0,
-          "maximum_units": 1,
+          "maximum_units": 2,
           "unit_increment": 1
         }
       },
