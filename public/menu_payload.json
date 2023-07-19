@@ -11,7 +11,7 @@
     "internal_name": "GrubHubCategory",
     "description": "GrubHub category with miscellaneous items",
     "items": [
-      "483f-86da-eb1e4b68639a",
+      "fried-chicken",
       "4a6d-93c2-77be78045b6a",
       "41fd-8c93-24a87211068e",
       "cheese_pizza",
@@ -25,7 +25,7 @@
     }
   }],
   "items": [{
-      "external_id": "483f-86da-eb1e4b68639a",
+      "external_id": "fried-chicken",
       "name": "Alex's Bomb Fried Chicken",
       "internal_name": "Alex's Bomb Fried Chicken",
       "description": "Alex's Bomb Fried Chicken",
@@ -33,8 +33,8 @@
       "tax_rate": null,
       "miscellaneous_taxes": [],
       "modifier_prompts": [
-        "6115784edcf1e49912fe9060",
-        "6115784edcf1e49912fe90d5"
+        "meat_temperature",
+        "entree-sides"
       ],
       "schedule_ids": [],
       "tags": [],
@@ -78,7 +78,7 @@
       "tax_rate": null,
       "miscellaneous_taxes": [],
       "modifier_prompts": [
-        "6115784edcf1e49912se9064"
+        "toppings"
       ],
       "option_groups": [
         "CREATE_YOUR_OWN_SIZES"
@@ -146,8 +146,8 @@
       "tax_rate": null,
       "miscellaneous_taxes": [],
       "modifier_prompts": [
-        "6115784edcf1e49912fe9060",
-        "6115784edcf1e49912fe90d5"
+        "meat_temperature",
+        "entree-sides"
       ],
       "schedule_ids": [],
       "tags": [],
@@ -163,7 +163,7 @@
     }
   ],
   "modifier_prompts": [{
-      "external_id": "6115784edcf1e49912fe9060",
+      "external_id": "meat_temperature",
       "name": "Meat Temp",
       "internal_name": "Meat Temp",
       "modifier_list": "4295-b241-d3ceec93a8d7",
@@ -211,7 +211,7 @@
         "maximum_quantity": 5
       } 
     },{
-      "external_id": "6115784edcf1e49912se9064",
+      "external_id": "toppings",
       "name": "Toppings",
       "internal_name": "Toppings",
       "modifier_list": "4295-b241-d3ceec93a8d8",
@@ -221,7 +221,7 @@
         "free_modifiers": 1
       },
       "modifier_quantity_settings": {
-        "477f-99ae-6afd01626418": {
+        "bacon": {
           "default_units": 0,
           "maximum_units": 2,
           "unit_increment": 1
@@ -316,7 +316,7 @@
         "maximum_quantity": 10
       }
     }, {
-      "external_id": "6115784edcf1e49912fe90d5",
+      "external_id": "entree-sides",
       "name": "Entree Side",
       "internal_name": "Entree Side",
       "modifier_list": "4a25-8e72-1f06b59a017e",
@@ -390,7 +390,7 @@
       "external_id": "4295-b241-d3ceec93a8d8",
       "name": "Toppings",
       "modifiers": [
-        "477f-99ae-6afd01626418",
+        "bacon",
         "477f-99ae-6afd01626419",
         "477f-99ae-6afd01626420",
         "477f-99ae-6afd01626421",
@@ -445,8 +445,8 @@
       "availability_ranges": [],
       "availability_override": ""
     },{
-      "external_id": "477f-99ae-6afd01626418",
-      "name": "Bacon",
+      "external_id": "bacon",
+      "name": "Add Bacon",
       "internal_name": "Bacon",
       "description": "Bacon",
       "calorie_content": "",
@@ -461,7 +461,7 @@
       "submodifiers": [],
       "metadata": "",
       "schedule_ids": [],
-      "availability_ranges": [],
+      "availability_ranges": null,
       "availability_override": ""
     },{
       "external_id": "477f-99ae-6afd01626419",
