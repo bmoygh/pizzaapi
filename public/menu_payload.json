@@ -171,12 +171,12 @@
       "defaulted_modifiers": [],
       "modifier_prompt_free_settings": null,
       "modifier_quantity_settings": {
-        "477f-99ae-6afd01626417": {
+        "too_hot": {
           "default_units": 0,
           "maximum_units": 2,
           "unit_increment": 1
         },
-        "4778-8015-4dcb30ffbe06": {
+        "477f-99ae-6afd01626417": {
           "default_units": 0,
           "maximum_units": 2,
           "unit_increment": 1
@@ -380,7 +380,7 @@
       "name": "Meat Temp",
       "modifiers": [
         "477f-99ae-6afd01626417",
-        "4778-8015-4dcb30ffbe06",
+        "too_hot",
         "4d75-8fe9-c07663da7d50",
         "4ead-86e5-4f8ccc45a8d9",
         "417c-8d5f-d154b729b72f",
@@ -484,7 +484,7 @@
       "availability_override": ""
     },
     {
-      "external_id": "4778-8015-4dcb30ffbe06",
+      "external_id": "too_hot",
       "name": "Beef Prep Rare",
       "internal_name": "Beef Prep Rare",
       "description": "",
