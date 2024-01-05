@@ -281,7 +281,7 @@
                 "media": {
                     "source_url": "https://globalassets.starbucks.com/assets/76909e4b00b5430faef132b2fa93e40b.jpg"
                 },
-                "metadata": null,
+                "metadata": "tpcc: bacon",
                 "availability_ranges": [],
                 "allowable_order_types": [
                     "standard"
@@ -314,7 +314,10 @@
                 "media": {
                     "source_url": "https://globalassets.starbucks.com/assets/9ca96bf78afb4b91975946fd4528c24d.jpg"
                 },
-                "metadata": null,
+                "metadata": "tpcc: RTDJUICE01",
+                "flexible_tax_fields": {
+                    "SERVING_METHOD": "BTL-PLASTIC"
+                },
                 "availability_ranges": [],
                 "allowable_order_types": [
                     "standard"
