@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     resources :locations
   end
   root 'homepage#index'
+  get "secret_menu" => "homepage#menu_view"
   resources :payloads
   get "merchants/secret_menu"
   post 'order_validation' => 'payloads#order_validation'
