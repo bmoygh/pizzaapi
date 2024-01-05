@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   resources :merchants do
     resources :locations
   end
+  root 'homepage#index'
   resources :payloads
   get "merchants/secret_menu"
   post 'order_validation' => 'payloads#order_validation'
