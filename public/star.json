@@ -28,8 +28,17 @@
     {
                 "external_id": "100",
                 "name": "TUESDAY",
-                "type": "WEEKLY"
-    }
+                "type": "WEEKLY",
+                "rules": [
+                    {
+                        "start_time": "01:00:00.000",
+                        "end_time": "14:30:00.000",
+                        "days_of_week": [
+                            "THURSDAY"
+                        ]
+                    }
+                ]
+            }
       ],
         "menu_sections": [
             {
@@ -132,9 +141,6 @@
                     "source_url": "https://globalassets.starbucks.com/assets/730f5d78c6304eda88c960734fb1a8a4.jpg"
                 },
                 "metadata": "tpcc: RTDJUICE01",
-                "flexible_tax_fields": {
-                    "SERVING_METHOD": "BTL-PLASTIC"
-                },
                 "availability_ranges": [],
                 "allowable_order_types": [
                     "standard"
