@@ -208,7 +208,10 @@
                 "media": {
                     "source_url": "https://globalassets.starbucks.com/assets/f12bc8af498d45ed92c5d6f1dac64062.jpg"
                 },
-                "metadata": null,
+                "metadata": "tpcc: RTDJUICE01",
+                "flexible_tax_fields": {
+                    "SERVING_METHOD": "BTL-PLASTIC"
+                },
                 "availability_ranges": [],
                 "allowable_order_types": [
                     "standard"
