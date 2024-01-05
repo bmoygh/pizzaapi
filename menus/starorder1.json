@@ -8,13 +8,13 @@
                 "bakery"
             ],
             "header_media": {
-                "source_url": "https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-82833.jpg"
+                "source_url": ""
             },
             "logo_media": {
-                "source_url": "https://cdn.freebiesupply.com/logos/large/2x/starbucks-coffee-logo-png-transparent.png"
+                "source_url": ""
             },
             "search_media": {
-                "source_url": "https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-82833.jpg"
+                "source_url": ""
             }
         },
         "tax_rates": [
@@ -24,22 +24,6 @@
                 "rate": 0.063
             }
         ],
-        "repeating_schedules": [
-    {
-                "external_id": "100",
-                "name": "TUESDAY",
-                "type": "WEEKLY",
-                "rules": [
-                    {
-                        "start_time": "01:00:00.000",
-                        "end_time": "14:30:00.000",
-                        "days_of_week": [
-                            "THURSDAY"
-                        ]
-                    }
-                ]
-            }
-      ],
         "menu_sections": [
             {
                 "external_id": "drinks",
@@ -137,9 +121,6 @@
                 "minimum_order_quantity": null,
                 "maximum_order_quantity": null,
                 "calorie_content": null,
-                "media": {
-                    "source_url": "https://globalassets.starbucks.com/assets/730f5d78c6304eda88c960734fb1a8a4.jpg"
-                },
                 "metadata": "tpcc: RTDJUICE01",
                 "flexible_tax_fields": {
                     "SERVING_METHOD": "BTL-PLASTIC"
@@ -174,9 +155,6 @@
                 "minimum_order_quantity": null,
                 "maximum_order_quantity": null,
                 "calorie_content": null,
-                "media": {
-                    "source_url": "https://globalassets.starbucks.com/assets/00fc85c070d945f6a9ec2da22b68f50d.jpg"
-                },
                 "metadata": null,
                 "availability_ranges": [],
                 "allowable_order_types": [
@@ -208,9 +186,6 @@
                 "minimum_order_quantity": null,
                 "maximum_order_quantity": null,
                 "calorie_content": null,
-                "media": {
-                    "source_url": "https://globalassets.starbucks.com/assets/f12bc8af498d45ed92c5d6f1dac64062.jpg"
-                },
                 "metadata": null,
                 "availability_ranges": [],
                 "allowable_order_types": [
@@ -243,9 +218,6 @@
                 "minimum_order_quantity": null,
                 "maximum_order_quantity": null,
                 "calorie_content": null,
-                "media": {
-                    "source_url": "https://globalassets.starbucks.com/assets/58db701349cb48738069e8c912e2b3ac.jpg"
-                },
                 "metadata": null,
                 "availability_ranges": [],
                 "allowable_order_types": [
@@ -278,9 +250,6 @@
                 "minimum_order_quantity": null,
                 "maximum_order_quantity": null,
                 "calorie_content": null,
-                "media": {
-                    "source_url": "https://globalassets.starbucks.com/assets/76909e4b00b5430faef132b2fa93e40b.jpg"
-                },
                 "metadata": null,
                 "availability_ranges": [],
                 "allowable_order_types": [
@@ -311,9 +280,6 @@
                 "minimum_order_quantity": null,
                 "maximum_order_quantity": null,
                 "calorie_content": null,
-                "media": {
-                    "source_url": "https://globalassets.starbucks.com/assets/9ca96bf78afb4b91975946fd4528c24d.jpg"
-                },
                 "metadata": null,
                 "availability_ranges": [],
                 "allowable_order_types": [
@@ -345,9 +311,6 @@
                 "minimum_order_quantity": null,
                 "maximum_order_quantity": null,
                 "calorie_content": "+265",
-                "media": {
-                    "source_url": "https://globalassets.starbucks.com/assets/b87eeb626b344c4a8ccb042e4aff4ab9.jpg"
-                },
                 "metadata": null,
                 "availability_ranges": [],
                 "allowable_order_types": [
