@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   end
   root 'homepage#index'
   get "secret_menu" => "homepage#menu_view"
+  get "cloud1" => "homepage#cloud1"
   resources :payloads
   get "merchants/secret_menu"
   post 'order_validation' => 'payloads#order_validation'
