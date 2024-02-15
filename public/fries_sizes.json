@@ -92,6 +92,24 @@
       "modifier_quantity_settings": {},
       "defaulted_modifiers": [],
       "modifier_prompt_free_settings": null
+    },
+    {
+      "external_id": "condiments",
+      "name": "Condiments List (Modifer Prompt)",
+      "internal_name": "Condiments List  (Modifer Prompt)",
+      "modifier_list": "condiments_list",
+      "display_settings": null,
+      "default_selection_model": {
+        "minimum_quantity": 1,
+        "maximum_quantity": 1
+      },
+      "modifier_prompt_quantity_settings": {
+        "minimum_units": 0,
+        "maximum_units": 1
+      },
+      "modifier_quantity_settings": {},
+      "defaulted_modifiers": [],
+      "modifier_prompt_free_settings": null
     }
   ],
   "modifier_lists": [
@@ -105,8 +123,8 @@
       ]
     },
     {
-      "external_id": "condiments",
-      "name": "condiments",
+      "external_id": "condiments_list",
+      "name": "Condiments",
       "modifiers": [
         "extra_salt"
       ]
