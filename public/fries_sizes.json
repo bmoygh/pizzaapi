@@ -42,8 +42,8 @@
       "external_id": "Yummy-Fries",
       "name": "Yummy-Fries (Item Level)",
       "internal_name": "Yummy-Fries (Item Level)",
-      "description": "crunchy yummy friends",
-      "price": 0.00,
+      "description": "1 item with base price",
+      "price": 2.00,
       "tax_rate": "t1",
       "miscellaneous_taxes": [],
       "modifier_prompts": [
@@ -82,7 +82,7 @@
       "modifier_list": "fries_size_modifier_list",
       "display_settings": null,
       "default_selection_model": {
-        "minimum_quantity": 0,
+        "minimum_quantity": 1,
         "maximum_quantity": 1
       },
       "modifier_prompt_quantity_settings": {
