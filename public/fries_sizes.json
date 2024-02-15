@@ -120,7 +120,7 @@
         "source_url": ""
       },
       "sized_prices": [],
-      "submodifiers": [],
+      "submodifiers": ["extra_salt"],
       "metadata": "this is meta data on the modifer level",
       "schedule_ids": [],
       "availability_ranges": [],
@@ -162,6 +162,26 @@
       "sized_prices": [],
       "submodifiers": [],
       "metadata": "this is meta data on the modifer level",
+      "schedule_ids": [],
+      "availability_ranges": [],
+      "availability_override": ""
+    },
+    {
+      "external_id": "extra_salt",
+      "name": "extra salt (sub modifer level)",
+      "internal_name": "extra salt (sub modifer level)",
+      "description": "extra salt",
+      "calorie_content": "",
+      "default_price": 0.00,
+      "tags": [],
+      "tax_rate": "t1",
+      "miscellaneous_taxes": [],
+      "media": {
+        "source_url": ""
+      },
+      "sized_prices": [],
+      "submodifiers": [],
+      "metadata": "this is meta data on the sub modifer level",
       "schedule_ids": [],
       "availability_ranges": [],
       "availability_override": ""
