@@ -1,0 +1,156 @@
+{
+  "menu_info": {
+    "currency": "USD",
+    "sections": [
+      "main_section"
+    ]
+  },
+  "menu_sections": [{
+    "external_id": "main_section",
+    "name": "GrubHubCategory",
+    "internal_name": "GrubHubCategory",
+    "description": "GrubHub category with miscellaneous items",
+    "items": [
+      "Yummy-Fries"
+    ],
+    "availability_ranges": [],
+    "schedule_ids": [],
+    "availability_override": "",
+    "media": {
+      "source_url": ""
+    }
+  }],
+  "items": [{
+      "external_id": "Yummy-Fries",
+      "name": "Yummy-Fries (Item Level)",
+      "internal_name": "Yummy-Fries (Item Level)",
+      "description": "crunchy yummy friends",
+      "price": 0.00,
+      "tax_rate": null,
+      "miscellaneous_taxes": [],
+      "modifier_prompts": [
+        "fries-sizes"
+      ],
+      "schedule_ids": [],
+      "tags": ["fries tag"],
+      "lead_time_seconds": 0,
+      "calorie_content": "",
+      "metadata": "meta data on the fries item level",
+      "availability_ranges": [],
+      "allowable_order_types": [],
+      "availability_override": "",
+      "media": {
+        "source_url": ""
+      }
+    }
+  ],
+  "modifier_prompts": [{
+      "external_id": "fries-sizes",
+      "name": "Fries Size (Modifer Prompt)",
+      "internal_name": "Fries Size (Modifer Prompt)",
+      "modifier_list": "fries_size_modifier_list",
+      "display_settings": null,
+      "defaulted_modifiers": [],
+      "modifier_prompt_free_settings": null,
+      "modifier_quantity_settings": {
+        "small_fries": {
+          "default_units": 0,
+          "maximum_units": 1,
+          "unit_increment": 1
+        },
+        "medium_fries": {
+          "default_units": 0,
+          "maximum_units": 1,
+          "unit_increment": 1
+        },
+        "large_fries": {
+          "default_units": 0,
+          "maximum_units": 1,
+          "unit_increment": 1
+        }
+      },
+      "modifier_prompt_quantity_settings": {
+        "minimum_units": 0,
+        "maximum_units": 5
+      },
+      "default_selection_model": {
+        "minimum_quantity": 1,
+        "maximum_quantity": 10
+      } 
+    }
+  ],
+  "modifier_lists": [{
+      "external_id": "fries_size_modifier_list",
+      "name": "Fries Size",
+      "modifiers": [
+        "small_fries",
+        "medium_fries",
+        "large_fries"
+      ]
+    }
+  ],
+  "modifiers": [{
+      "external_id": "small_fries",
+      "name": "Small Fries (modifer level)",
+      "internal_name": "Small Fries (modifer level)",
+      "description": "small crunchy fries",
+      "calorie_content": "",
+      "default_price": 3.99,
+      "tags": [],
+      "tax_rate": null,
+      "miscellaneous_taxes": [],
+      "media": {
+        "source_url": ""
+      },
+      "sized_prices": [],
+      "submodifiers": [],
+      "metadata": "this is meta data on the modifer level",
+      "schedule_ids": [],
+      "availability_ranges": [],
+      "availability_override": ""
+    },
+    {
+      "external_id": "medium_fries",
+      "name": "Medium Fries (modifer level)",
+      "internal_name": "Medium Fries (modifer level)",
+      "description": "medium crunchy fries",
+      "calorie_content": "",
+      "default_price": 4.99,
+      "tags": [],
+      "tax_rate": null,
+      "miscellaneous_taxes": [],
+      "media": {
+        "source_url": ""
+      },
+      "sized_prices": [],
+      "submodifiers": [],
+      "metadata": "this is meta data on the modifer level",
+      "schedule_ids": [],
+      "availability_ranges": [],
+      "availability_override": ""
+    },
+    {
+      "external_id": "large_fries",
+      "name": "Large Fries (modifer level)",
+      "internal_name": "Large Fries (modifer level)",
+      "description": "large crunchy fries",
+      "calorie_content": "",
+      "default_price": 5.99,
+      "tags": [],
+      "tax_rate": null,
+      "miscellaneous_taxes": [],
+      "media": {
+        "source_url": ""
+      },
+      "sized_prices": [],
+      "submodifiers": [],
+      "metadata": "this is meta data on the modifer level",
+      "schedule_ids": [],
+      "availability_ranges": [],
+      "availability_override": ""
+    }
+  ],
+  "normalized_menu": true,
+  "ingestion_type": "NORMALIZED",
+  "last_updated": "2024-01-15T15:47:22.124417"
+}
