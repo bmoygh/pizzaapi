@@ -5,38 +5,40 @@
       "fries-section"
     ],
     "header_media": {
-        "source_url": ""
+      "source_url": ""
     },
     "logo_media": {
-        "source_url": ""
+      "source_url": ""
     },
     "search_media": {
-        "source_url": ""
+      "source_url": ""
     }
   },
   "tax_rates": [
     {
-        "external_id": "t1",
-        "name": "Default Tax Rate",
-        "rate": 0.063
+      "external_id": "t1",
+      "name": "Default Tax Rate",
+      "rate": 0.063
     }
   ],
-  "menu_sections": [{
-    "external_id": "fries-section",
-    "name": "GrubHubCategory",
-    "internal_name": "GrubHubCategory",
-    "description": "GrubHub category with miscellaneous items",
-    "items": [
-      "Yummy-Fries"
-    ],
-    "availability_ranges": [],
-    "schedule_ids": [],
-    "availability_override": "",
-    "media": {
-      "source_url": ""
+  "menu_sections": [
+    {
+      "external_id": "fries-section",
+      "name": "fries section",
+      "internal_name": "fries section",
+      "description": "This is the Menu Section",
+      "items": [
+        "Yummy-Fries"
+      ],
+      "availability_ranges": [],
+      "schedule_ids": [],
+      "availability_override": null,
+      "media": null,
+      "subsections": []
     }
-  }],
-  "items": [{
+  ],
+  "items": [
+    {
       "external_id": "Yummy-Fries",
       "name": "Yummy-Fries (Item Level)",
       "internal_name": "Yummy-Fries (Item Level)",
@@ -47,55 +49,53 @@
       "modifier_prompts": [
         "fries-sizes"
       ],
-      "schedule_ids": [],
-      "tags": ["fries tag"],
-      "lead_time_seconds": 0,
-      "calorie_content": "",
-      "metadata": "meta data on the fries item level",
-      "availability_ranges": [],
-      "allowable_order_types": [],
-      "availability_override": "",
+      "tags": [],
+      "minimum_serving_size": null,
+      "maximum_serving_size": null,
+      "lead_time_seconds": 1600,
+      "minimum_order_quantity": null,
+      "maximum_order_quantity": null,
+      "calorie_content": null,
       "media": {
         "source_url": ""
-      }
+      },
+      "metadata": "this is meta data on the item level",
+      "flexible_tax_fields": {
+        "SERVING_METHOD": "BTL-PLASTIC"
+      },
+      "availability_ranges": [],
+      "allowable_order_types": [
+        "standard"
+      ],
+      "availability_override": null,
+      "gtin": null,
+      "dimensions": null,
+      "weight_in_pounds": null,
+      "location_in_store": null
     }
   ],
-  "modifier_prompts": [{
+  "modifier_prompts": [
+    {
       "external_id": "fries-sizes",
       "name": "Fries Size (Modifer Prompt)",
       "internal_name": "Fries Size (Modifer Prompt)",
       "modifier_list": "fries_size_modifier_list",
       "display_settings": null,
-      "defaulted_modifiers": [],
-      "modifier_prompt_free_settings": null,
-      "modifier_quantity_settings": {
-        "small_fries": {
-          "default_units": 0,
-          "maximum_units": 1,
-          "unit_increment": 1
-        },
-        "medium_fries": {
-          "default_units": 0,
-          "maximum_units": 1,
-          "unit_increment": 1
-        },
-        "large_fries": {
-          "default_units": 0,
-          "maximum_units": 1,
-          "unit_increment": 1
-        }
+      "default_selection_model": {
+        "minimum_quantity": 0,
+        "maximum_quantity": 1
       },
       "modifier_prompt_quantity_settings": {
         "minimum_units": 0,
-        "maximum_units": 5
+        "maximum_units": 1
       },
-      "default_selection_model": {
-        "minimum_quantity": 1,
-        "maximum_quantity": 10
-      } 
+      "modifier_quantity_settings": {},
+      "defaulted_modifiers": [],
+      "modifier_prompt_free_settings": null
     }
   ],
-  "modifier_lists": [{
+  "modifier_lists": [
+    {
       "external_id": "fries_size_modifier_list",
       "name": "Fries Size",
       "modifiers": [
@@ -105,7 +105,8 @@
       ]
     }
   ],
-  "modifiers": [{
+  "modifiers": [
+    {
       "external_id": "small_fries",
       "name": "Small Fries (modifer level)",
       "internal_name": "Small Fries (modifer level)",
