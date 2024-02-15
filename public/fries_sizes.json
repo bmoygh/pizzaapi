@@ -2,11 +2,27 @@
   "menu_info": {
     "currency": "USD",
     "sections": [
-      "main_section"
-    ]
+      "fries-section"
+    ],
+    "header_media": {
+        "source_url": ""
+    },
+    "logo_media": {
+        "source_url": ""
+    },
+    "search_media": {
+        "source_url": ""
+    }
   },
+  "tax_rates": [
+    {
+        "external_id": "t1",
+        "name": "Default Tax Rate",
+        "rate": 0.063
+    }
+  ],
   "menu_sections": [{
-    "external_id": "main_section",
+    "external_id": "fries-section",
     "name": "GrubHubCategory",
     "internal_name": "GrubHubCategory",
     "description": "GrubHub category with miscellaneous items",
@@ -26,7 +42,7 @@
       "internal_name": "Yummy-Fries (Item Level)",
       "description": "crunchy yummy friends",
       "price": 0.00,
-      "tax_rate": null,
+      "tax_rate": "t1",
       "miscellaneous_taxes": [],
       "modifier_prompts": [
         "fries-sizes"
@@ -97,7 +113,7 @@
       "calorie_content": "",
       "default_price": 3.99,
       "tags": [],
-      "tax_rate": null,
+      "tax_rate": "t1",
       "miscellaneous_taxes": [],
       "media": {
         "source_url": ""
@@ -117,7 +133,7 @@
       "calorie_content": "",
       "default_price": 4.99,
       "tags": [],
-      "tax_rate": null,
+      "tax_rate": "t1",
       "miscellaneous_taxes": [],
       "media": {
         "source_url": ""
@@ -137,7 +153,7 @@
       "calorie_content": "",
       "default_price": 5.99,
       "tags": [],
-      "tax_rate": null,
+      "tax_rate": "t1",
       "miscellaneous_taxes": [],
       "media": {
         "source_url": ""
