@@ -103,6 +103,13 @@
         "medium_fries",
         "large_fries"
       ]
+    },
+    {
+      "external_id": "condiments",
+      "name": "condiments",
+      "modifiers": [
+        "extra_salt"
+      ]
     }
   ],
   "modifiers": [
@@ -120,7 +127,7 @@
         "source_url": ""
       },
       "sized_prices": [],
-      "submodifiers": ["extra_salt"],
+      "submodifiers": ["condiments"],
       "metadata": "this is meta data on the modifer level",
       "schedule_ids": [],
       "availability_ranges": [],
