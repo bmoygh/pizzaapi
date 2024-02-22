@@ -5,13 +5,13 @@
       "fries-section"
     ],
     "header_media": {
-      "source_url": ""
+      "source_url": "app/assets/image/pizza.png"
     },
     "logo_media": {
-      "source_url": ""
+      "source_url": "app/assets/image/pizza.png"
     },
     "search_media": {
-      "source_url": ""
+      "source_url": "app/assets/image/pizza.pngco"
     }
   },
   "tax_rates": [
@@ -42,8 +42,8 @@
       "external_id": "Yummy-Fries",
       "name": "Yummy-Fries (Item Level)",
       "internal_name": "Yummy-Fries (Item Level)",
-      "description": "crunchy yummy friends",
-      "price": 0.00,
+      "description": "1 item with base price",
+      "price": 2.00,
       "tax_rate": "t1",
       "miscellaneous_taxes": [],
       "modifier_prompts": [
@@ -82,7 +82,25 @@
       "modifier_list": "fries_size_modifier_list",
       "display_settings": null,
       "default_selection_model": {
-        "minimum_quantity": 0,
+        "minimum_quantity": 1,
+        "maximum_quantity": 1
+      },
+      "modifier_prompt_quantity_settings": {
+        "minimum_units": 0,
+        "maximum_units": 1
+      },
+      "modifier_quantity_settings": {},
+      "defaulted_modifiers": [],
+      "modifier_prompt_free_settings": null
+    },
+    {
+      "external_id": "condiments",
+      "name": "Condiments List (Modifer Prompt)",
+      "internal_name": "Condiments List  (Modifer Prompt)",
+      "modifier_list": "condiments_list",
+      "display_settings": null,
+      "default_selection_model": {
+        "minimum_quantity": 1,
         "maximum_quantity": 1
       },
       "modifier_prompt_quantity_settings": {
@@ -103,6 +121,13 @@
         "medium_fries",
         "large_fries"
       ]
+    },
+    {
+      "external_id": "condiments_list",
+      "name": "Condiments",
+      "modifiers": [
+        "extra_salt"
+      ]
     }
   ],
   "modifiers": [
@@ -120,7 +145,7 @@
         "source_url": ""
       },
       "sized_prices": [],
-      "submodifiers": [],
+      "submodifiers": ["condiments"],
       "metadata": "this is meta data on the modifer level",
       "schedule_ids": [],
       "availability_ranges": [],
@@ -162,6 +187,26 @@
       "sized_prices": [],
       "submodifiers": [],
       "metadata": "this is meta data on the modifer level",
+      "schedule_ids": [],
+      "availability_ranges": [],
+      "availability_override": ""
+    },
+    {
+      "external_id": "extra_salt",
+      "name": "extra salt (sub modifer level)",
+      "internal_name": "extra salt (sub modifer level)",
+      "description": "extra salt",
+      "calorie_content": "",
+      "default_price": 0.00,
+      "tags": [],
+      "tax_rate": "t1",
+      "miscellaneous_taxes": [],
+      "media": {
+        "source_url": ""
+      },
+      "sized_prices": [],
+      "submodifiers": [],
+      "metadata": "this is meta data on the sub modifer level",
       "schedule_ids": [],
       "availability_ranges": [],
       "availability_override": ""
