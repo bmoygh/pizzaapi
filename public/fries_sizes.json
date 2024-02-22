@@ -5,13 +5,13 @@
       "fries-section"
     ],
     "header_media": {
-      "source_url": ""
+      "source_url": "app/assets/image/pizza.png"
     },
     "logo_media": {
-      "source_url": ""
+      "source_url": "app/assets/image/pizza.png"
     },
     "search_media": {
-      "source_url": ""
+      "source_url": "app/assets/image/pizza.pngco"
     }
   },
   "tax_rates": [
