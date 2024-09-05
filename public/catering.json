@@ -116,7 +116,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "standard", "catering"
+                "STANDARD", "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
@@ -158,7 +158,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "standard", "catering"
+                "STANDARD", "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
@@ -199,7 +199,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "standard", "catering"
+                "STANDARD", "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
@@ -240,7 +240,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "catering"
+                "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
@@ -279,7 +279,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "standard"
+                "STANDARD"
             ],
             "availability_override": null,
             "gtin": null,
@@ -320,7 +320,7 @@
             },
             "metadata": null,
             "availability_ranges": [],
-            "allowable_order_types": ["standard"],
+            "allowable_order_types": ["STANDARD"],
             "availability_override": null,
             "gtin": null,
             "dimensions": null,
@@ -358,7 +358,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "standard", "catering"
+                "STANDARD", "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
@@ -397,7 +397,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "standard", "catering"
+                "STANDARD", "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
@@ -436,7 +436,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "standard", "catering"
+                "STANDARD", "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
@@ -478,7 +478,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "catering"
+                "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
@@ -517,7 +517,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "standard", "catering"
+                "STANDARD", "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
@@ -3122,11 +3122,11 @@
         },
         {
             "external_id": "605006%23LU%230|3083327",
-            "name": "Small Catering Chopped Salad",
-            "internal_name": "Small Catering Chopped Salad",
+            "name": "Small Chopped Salad",
+            "internal_name": "Small Chopped Salad",
             "description": "",
             "calorie_content": null,
-            "default_price": 37.94,
+            "default_price": 3.94,
             "tax_rate": null,
             "tax_category": null,
             "flexible_tax_fields": {},
