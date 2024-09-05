@@ -25,8 +25,8 @@
             "internal_name": "Salads",
             "description": "",
             "items": [
-                "84450|696340",
-                "84450|696342",
+                "chopped-salad",
+                "caesar-salad",
                 "84450|696343",
                 "84450|696344"
             ],
@@ -68,7 +68,7 @@
             "description": "",
             "items": [
                 "chocolate-cake-standard",
-                "84451|707410",
+                "birthday-cake",
                 "84451|696345"
             ],
             "availability_ranges": [],
@@ -209,8 +209,8 @@
             "serving_size": null
         },
         {
-            "external_id": "84451|707410",
-            "name": "Birthday Cake (Serves 10)",
+            "external_id": "birthday-cake",
+            "name": "Birthday Cake - Catering Only (Serves 10)",
             "internal_name": "Birthday Cake (Serves 10)",
             "description": "Serves 10. Celebrate your birthday with Portillo's homemade chocolate cake topped with Portillo's candles! Kit includes one Chocolate Cake and one package of Portillo's candles. Party decorations not included.\r\n",
             "price": 33.34,
@@ -240,7 +240,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "standard", "catering"
+                "catering"
             ],
             "availability_override": null,
             "gtin": null,
@@ -289,10 +289,10 @@
             "serving_size": null
         },
         {
-            "external_id": "84450|696340",
-            "name": "Chopped Salad (Serves 8-20)",
-            "internal_name": "Chopped Salad (Serves 8-20)",
-            "description": "Small serves 8-10 sides. Large serves 16-20 sides. Chopped romaine, iceberg lettuce and red cabbage with diced chicken breast, ditalini pasta, bacon, tomatoes, Gorgonzola cheese and green onion. Served with our House Dressing on the side and includes serving utensils.",
+            "external_id": "chopped-salad",
+            "name": "Chopped Salad (Serves 1)",
+            "internal_name": "Chopped Salad (Serves 1)",
+            "description": "Small serves 1. Large serves 2 side. Chopped romaine, iceberg lettuce and red cabbage with diced chicken breast, ditalini pasta, bacon, tomatoes, Gorgonzola cheese and green onion. Served with our House Dressing on the side and includes serving utensils.",
             "price": 0.0,
             "tax_rate": null,
             "tax_category": {
@@ -320,9 +320,7 @@
             },
             "metadata": null,
             "availability_ranges": [],
-            "allowable_order_types": [
-                "standard", "catering"
-            ],
+            "allowable_order_types": ["standard"],
             "availability_override": null,
             "gtin": null,
             "dimensions": null,
@@ -448,8 +446,8 @@
             "serving_size": null
         },
         {
-            "external_id": "84450|696342",
-            "name": "Caesar Salad (Serves 8-20)",
+            "external_id": "caesar-salad",
+            "name": "Caesar Salad - Catering Only (Serves 8-20)",
             "internal_name": "Caesar Salad (Serves 8-20)",
             "description": "Small serves 8-10 sides. Large serves 16-20 sides. Crisp romaine, parmesan cheese and croutons. Served with our Caesar Dressing on the side and includes serving utensils.\r\n",
             "price": 0.0,
@@ -480,7 +478,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "standard", "catering"
+                "catering"
             ],
             "availability_override": null,
             "gtin": null,
