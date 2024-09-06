@@ -26,9 +26,26 @@
             "description": "",
             "items": [
                 "chopped-salad",
-                "caesar-salad",
-                "84450|696343",
-                "84450|696344"
+                "caesar-salad"
+            ],
+            "availability_ranges": [],
+            "schedule_ids": [],
+            "availability_override": null,
+            "media": null,
+            "subsections": [],
+            "tax_category": {
+                "code": "102",
+                "ordered_external_tax_mappings": []
+            }
+        },
+        {
+            "external_id": "84450",
+            "name": "Salads (Catering)",
+            "internal_name": "Salads",
+            "description": "",
+            "items": [
+                "greek-salad-catering",
+                "garden-salad-catering"
             ],
             "availability_ranges": [],
             "schedule_ids": [],
@@ -84,7 +101,7 @@
     ],
     "items": [
         {
-            "external_id": "84450|696344",
+            "external_id": "garden-salad-catering",
             "name": "Garden Salad (Serves 8-20)",
             "internal_name": "Garden Salad (Serves 8-20)",
             "description": "Small serves 8-10 sides. Large serves 16-20 sides. Romaine lettuce, shredded red cabbage, tomatoes, cucumber and shredded cheddar cheese. Served with your choice of dressing and croutons on the side. Includes serving utensils.\r\n\r\n",
@@ -116,7 +133,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "STANDARD", "CATERING"
+                "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
@@ -126,7 +143,7 @@
             "serving_size": null
         },
         {
-            "external_id": "84450|696343",
+            "external_id": "greek-salad-catering",
             "name": "Greek Salad (Serves 8-20)",
             "internal_name": "Greek Salad (Serves 8-20)",
             "description": "Small serves 8-10 sides. Large serves 16-20 sides. Chopped romaine topped with chicken breast, feta cheese, tomatoes, red onions, Kalamata olives and cucumeber. Served with our Roasted Garlic Vinaigrette on the side and includes serving utensils.\r\n",
@@ -158,7 +175,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "STANDARD", "CATERING"
+                "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
