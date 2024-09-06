@@ -496,7 +496,7 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "CATERING"
+                "STANDARD"
             ],
             "availability_override": null,
             "gtin": null,
