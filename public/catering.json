@@ -3,7 +3,8 @@
         "currency": "USD",
         "sections": [
             "78193",
-            "84450",
+            "salads-standard",
+            "salads-catering",
             "84451"
         ],
         "header_media": {
@@ -20,7 +21,7 @@
     "repeating_schedules": [],
     "menu_sections": [
         {
-            "external_id": "84450",
+            "external_id": "salads-standard",
             "name": "Salads",
             "internal_name": "Salads",
             "description": "",
@@ -39,7 +40,7 @@
             }
         },
         {
-            "external_id": "84450",
+            "external_id": "salads-catering",
             "name": "Salads (Catering)",
             "internal_name": "Salads",
             "description": "",
