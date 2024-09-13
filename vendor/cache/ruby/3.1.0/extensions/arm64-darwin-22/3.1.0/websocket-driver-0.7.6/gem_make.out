@@ -1,0 +1,20 @@
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+/Users/bmoy/.asdf/installs/ruby/3.1.4/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240913-24033-2ha4z1 sitelibdir\=./.gem.20240913-24033-2ha4z1 clean
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240913-24033-2ha4z1 sitelibdir\=./.gem.20240913-24033-2ha4z1
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240913-24033-2ha4z1 sitelibdir\=./.gem.20240913-24033-2ha4z1 install
+/opt/homebrew/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20240913-24033-2ha4z1
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240913-24033-2ha4z1 sitelibdir\=./.gem.20240913-24033-2ha4z1 clean

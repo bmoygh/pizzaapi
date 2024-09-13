@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payloads Index</title>
+  <link rel="stylesheet" href="<%= asset_path('custom.css') %>">
+</head>
+<body>
+  <header>
+    <h1>Payloads Index</h1>
+  </header>
+
+  <div class="container">
+    <h2>All Payloads</h2>
+    
+    <% if @payloads.any? %>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Event Type</th>
+            <th>Event Data</th>
+            <th>Created At</th>
+            <th>Updated At</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @payloads.each do |payload| %>
+            <tr>
+              <td><%= payload.id %></td>
+              <td><%= payload.event_type %></td>
+              <td><pre><%= payload.event_data %></pre></td>
+              <td><%= payload.created_at %></td>
+              <td><%= payload.updated_at %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    <% else %>
+      <p>No payloads found.</p>
+    <% end %>
+
+  </div>
+</body>
+</html>
