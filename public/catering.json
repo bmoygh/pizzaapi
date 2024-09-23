@@ -2,10 +2,10 @@
     "menu_info": {
         "currency": "USD",
         "sections": [
-            "78193",
+            "fast-pack-mix",
             "salads-standard",
             "salads-catering",
-            "84451"
+            "desser-mix"
         ],
         "header_media": {
             "source_url": "image.png"
@@ -59,15 +59,15 @@
             }
         },
         {
-            "external_id": "78193",
+            "external_id": "fast-pack-mix",
             "name": "Fast Packs",
             "internal_name": "Fast Packs",
             "description": "",
             "items": [
-                "78193|635898",
-                "78193|635899",
-                "78193|635902",
-                "78193|635913"
+                "hotdog_s_catering",
+                "fast-pack-mix|635899",
+                "fast-pack-mix|635902",
+                "fast-pack-mix|635913"
             ],
             "availability_ranges": [],
             "schedule_ids": [],
@@ -80,14 +80,14 @@
             }
         },
         {
-            "external_id": "84451",
+            "external_id": "desser-mix",
             "name": "Desserts & Beverages",
             "internal_name": "Desserts & Beverages",
             "description": "",
             "items": [
                 "chocolate-cake-standard",
                 "birthday-cake",
-                "84451|696345"
+                "drink-catering-standard-mix"
             ],
             "availability_ranges": [],
             "schedule_ids": [],
@@ -186,7 +186,7 @@
             "serving_size": null
         },
         {
-            "external_id": "84451|696345",
+            "external_id": "drink-catering-standard-mix",
             "name": "Bottled Drinks",
             "internal_name": "Bottled Drinks",
             "description": "",
@@ -347,7 +347,7 @@
             "serving_size": null
         },
         {
-            "external_id": "78193|635913",
+            "external_id": "fast-pack-mix|635913",
             "name": "Cheese Sauce (Serves 5)",
             "internal_name": "Cheese Sauce (Serves 5)",
             "description": "Serves 5. Our famous cheese sauce served family-style. Enough for the French Fry Fast Pack or Onion Ring Fast Pack order.\r\n",
@@ -386,7 +386,7 @@
             "serving_size": null
         },
         {
-            "external_id": "78193|635902",
+            "external_id": "fast-pack-mix|635902",
             "name": "Italian Beef & Sausages (Serves 8)",
             "internal_name": "Italian Beef & Sausages (Serves 8)",
             "description": "Serves 8, makes 16 half sandwiches. Sandwiches featuring the combination of our char-grilled sausage and Chicago's #1 Italian beef on perfectly baked French bread, served with easy gravy and cut in half. Sweet & Hot Peppers included.\r\n",
@@ -425,7 +425,7 @@
             "serving_size": null
         },
         {
-            "external_id": "78193|635898",
+            "external_id": "hotdog_s_catering",
             "name": "Chicago Style Hot Dogs (Serves 8)",
             "internal_name": "Chicago Style Hot Dogs (Serves 8)",
             "description": "Serves 8. All beef hot dogs served plain on poppyseed buns, with all toppings on the side. Condiments include: mustard, relish, celery salt, freshly chopped onions, sliced red ripe tomatoes, kosher pickle, and sport peppers.\r\n",
@@ -506,7 +506,7 @@
             "serving_size": null
         },
         {
-            "external_id": "78193|635899",
+            "external_id": "fast-pack-mix|635899",
             "name": "Plant-based Garden Dogs (Serves 8)",
             "internal_name": "Plant-based Garden Dogs (Serves 8)",
             "description": "Serves 8. Plant-based hot dogs served plain on poppy seed buns, with all toppings on the side. Made with 100% plant-based protein. The Garden Dog is crafted for Portillo's by Field Roast. Condiments include: mustard, relish, celery salt, freshly chopped onions, sliced red ripe tomatoes, kosher pickle, and sport peppers.\r\n\r\n\r\n\r\n",
@@ -560,54 +560,6 @@
             },
             "modifier_quantity_settings": {
                 "604872%23LU%230|3082557": {
-                    "default_units": 0,
-                    "maximum_units": 1,
-                    "unit_increment": 1
-                }
-            },
-            "defaulted_modifiers": [],
-            "modifier_prompt_free_settings": null
-        },
-        {
-            "external_id": "604797%23LU%230",
-            "name": "Choose Dressing:",
-            "internal_name": "Choose Dressing:",
-            "modifier_list": "1c468348-566a-11ef-8349-c1a3fec333cf",
-            "default_selection_model": {
-                "minimum_quantity": 1,
-                "maximum_quantity": 1
-            },
-            "modifier_prompt_quantity_settings": {
-                "minimum_units": 1,
-                "maximum_units": 1
-            },
-            "modifier_quantity_settings": {
-                "604797%23LU%230|3082315": {
-                    "default_units": 0,
-                    "maximum_units": 1,
-                    "unit_increment": 1
-                },
-                "604797%23LU%230|6695572": {
-                    "default_units": 0,
-                    "maximum_units": 1,
-                    "unit_increment": 1
-                },
-                "604797%23LU%230|3082317": {
-                    "default_units": 0,
-                    "maximum_units": 1,
-                    "unit_increment": 1
-                },
-                "604797%23LU%230|3082314": {
-                    "default_units": 0,
-                    "maximum_units": 1,
-                    "unit_increment": 1
-                },
-                "604797%23LU%230|3082318": {
-                    "default_units": 0,
-                    "maximum_units": 1,
-                    "unit_increment": 1
-                },
-                "604797%23LU%230|3082316": {
                     "default_units": 0,
                     "maximum_units": 1,
                     "unit_increment": 1
@@ -2048,15 +2000,13 @@
             ]
         },
         {
-            "external_id": "1c468348-566a-11ef-8349-c1a3fec333cf",
+            "external_id": "dressing-modifier",
             "name": "Choose Dressing:",
             "modifiers": [
-                "604797%23LU%230|3082314",
-                "604797%23LU%230|3082315",
                 "604797%23LU%230|3082316",
                 "604797%23LU%230|3082317",
                 "604797%23LU%230|3082318",
-                "604797%23LU%230|6695572"
+                "Honey_Peppercorn_Dressing"
             ]
         },
         {
@@ -3342,25 +3292,6 @@
             "availability_override": null
         },
         {
-            "external_id": "604797%23LU%230|3082314",
-            "name": "Lite Italian Dressing",
-            "internal_name": "Lite Italian Dressing",
-            "description": "",
-            "calorie_content": null,
-            "default_price": 0,
-            "tax_rate": null,
-            "tax_category": null,
-            "flexible_tax_fields": {},
-            "flexible_tax_numeric_fields": {},
-            "miscellaneous_taxes": [],
-            "media": null,
-            "sized_prices": [],
-            "metadata": null,
-            "schedule_ids": [],
-            "availability_ranges": [],
-            "availability_override": null
-        },
-        {
             "external_id": "604797%23LU%231|3082314",
             "name": "Lite Italian Dressing",
             "internal_name": "Lite Italian Dressing",
@@ -4152,7 +4083,7 @@
             "availability_override": null
         },
         {
-            "external_id": "604797%23LU%230|6695572",
+            "external_id": "Honey_Peppercorn_Dressing",
             "name": "Honey Peppercorn Dressing",
             "internal_name": "Honey Peppercorn Dressing",
             "description": "",
@@ -4446,25 +4377,6 @@
             "submodifiers": [
                 "605029%23LU%230"
             ],
-            "metadata": null,
-            "schedule_ids": [],
-            "availability_ranges": [],
-            "availability_override": null
-        },
-        {
-            "external_id": "604797%23LU%230|3082315",
-            "name": "House Dressing",
-            "internal_name": "House Dressing",
-            "description": "",
-            "calorie_content": null,
-            "default_price": 0,
-            "tax_rate": null,
-            "tax_category": null,
-            "flexible_tax_fields": {},
-            "flexible_tax_numeric_fields": {},
-            "miscellaneous_taxes": [],
-            "media": null,
-            "sized_prices": [],
             "metadata": null,
             "schedule_ids": [],
             "availability_ranges": [],
@@ -4979,28 +4891,6 @@
             "sized_prices": [],
             "submodifiers": [
                 "605033%23LU%230"
-            ],
-            "metadata": null,
-            "schedule_ids": [],
-            "availability_ranges": [],
-            "availability_override": null
-        },
-        {
-            "external_id": "604795%23LU%230|3082313",
-            "name": "Substitute Dressing",
-            "internal_name": "Substitute Dressing",
-            "description": "",
-            "calorie_content": null,
-            "default_price": 0,
-            "tax_rate": null,
-            "tax_category": null,
-            "flexible_tax_fields": {},
-            "flexible_tax_numeric_fields": {},
-            "miscellaneous_taxes": [],
-            "media": null,
-            "sized_prices": [],
-            "submodifiers": [
-                "604797%23LU%230"
             ],
             "metadata": null,
             "schedule_ids": [],
