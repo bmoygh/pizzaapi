@@ -7,15 +7,9 @@
             "salads-catering",
             "desser-mix"
         ],
-        "header_media": {
-            "source_url": "image.png"
-        },
-        "logo_media": {
-            "source_url": "Screenshot 2024-04-23 at 8.50.46 AM.png"
-        },
-        "search_media": {
-            "source_url": "Screenshot 2024-04-23 at 8.50.46AM.png"
-        }
+        "header_media": {},
+        "logo_media": {},
+        "search_media": {}
     },
     "tax_rates": [],
     "repeating_schedules": [],
