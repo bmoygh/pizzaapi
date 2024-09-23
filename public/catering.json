@@ -14,7 +14,7 @@
             "source_url": "Screenshot 2024-04-23 at 8.50.46 AM.png"
         },
         "search_media": {
-            "source_url": "Screenshot 2024-04-23 at 8.50.46 AM.png"
+            "source_url": "Screenshot 2024-04-23 at 8.50.46AM.png"
         }
     },
     "tax_rates": [],
@@ -207,7 +207,8 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "STANDARD", "CATERING"
+                "STANDARD",
+                "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
@@ -323,7 +324,9 @@
             },
             "metadata": null,
             "availability_ranges": [],
-            "allowable_order_types": ["STANDARD"],
+            "allowable_order_types": [
+                "STANDARD"
+            ],
             "availability_override": null,
             "gtin": null,
             "dimensions": null,
@@ -361,7 +364,8 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "STANDARD", "CATERING"
+                "STANDARD",
+                "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
@@ -439,7 +443,8 @@
             "metadata": null,
             "availability_ranges": [],
             "allowable_order_types": [
-                "STANDARD", "CATERING"
+                "STANDARD",
+                "CATERING"
             ],
             "availability_override": null,
             "gtin": null,
