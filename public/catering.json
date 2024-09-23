@@ -432,7 +432,7 @@
             "maximum_order_quantity": null,
             "calorie_content": 280,
             "media": {
-                "source_url": "https://olo-images-live.imgix.net/81/817b275d4f824694bc586954243e34d2.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=46d7444f9ae2f47bdde9d6b5457e1c13"
+                "source_url": "public/assets/sub.avif"
             },
             "metadata": null,
             "availability_ranges": [],
