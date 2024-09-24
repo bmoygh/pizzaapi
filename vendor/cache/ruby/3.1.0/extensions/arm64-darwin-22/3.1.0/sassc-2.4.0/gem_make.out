@@ -3,10 +3,10 @@ current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/sas
 creating Makefile
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240924-33252-2a3s5q sitelibdir\=./.gem.20240924-33252-2a3s5q clean
+make DESTDIR\= sitearchdir\=./.gem.20240924-96829-enuw2r sitelibdir\=./.gem.20240924-96829-enuw2r clean
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240924-33252-2a3s5q sitelibdir\=./.gem.20240924-33252-2a3s5q
+make DESTDIR\= sitearchdir\=./.gem.20240924-96829-enuw2r sitelibdir\=./.gem.20240924-96829-enuw2r
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -87,8 +87,8 @@ linking shared-object sassc/libsass.bundle
 ld: warning: -multiply_defined is obsolete
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240924-33252-2a3s5q sitelibdir\=./.gem.20240924-33252-2a3s5q install
-/opt/homebrew/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20240924-33252-2a3s5q/sassc
+make DESTDIR\= sitearchdir\=./.gem.20240924-96829-enuw2r sitelibdir\=./.gem.20240924-96829-enuw2r install
+/opt/homebrew/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20240924-96829-enuw2r/sassc
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240924-33252-2a3s5q sitelibdir\=./.gem.20240924-33252-2a3s5q clean
+make DESTDIR\= sitearchdir\=./.gem.20240924-96829-enuw2r sitelibdir\=./.gem.20240924-96829-enuw2r clean

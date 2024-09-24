@@ -7,18 +7,18 @@ checking for whether -std=c99 is accepted as CFLAGS... yes
 creating Makefile
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/bootsnap-1.18.4/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20240924-33252-fir7vg sitelibdir\=./.gem.20240924-33252-fir7vg clean
+make DESTDIR\= sitearchdir\=./.gem.20240924-96829-27hs17 sitelibdir\=./.gem.20240924-96829-27hs17 clean
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/bootsnap-1.18.4/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20240924-33252-fir7vg sitelibdir\=./.gem.20240924-33252-fir7vg
+make DESTDIR\= sitearchdir\=./.gem.20240924-96829-27hs17 sitelibdir\=./.gem.20240924-96829-27hs17
 compiling bootsnap.c
 linking shared-object bootsnap/bootsnap.bundle
 ld: warning: -multiply_defined is obsolete
 ld: warning: ignoring duplicate libraries: '-lruby.3.1'
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/bootsnap-1.18.4/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20240924-33252-fir7vg sitelibdir\=./.gem.20240924-33252-fir7vg install
-/opt/homebrew/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20240924-33252-fir7vg/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240924-96829-27hs17 sitelibdir\=./.gem.20240924-96829-27hs17 install
+/opt/homebrew/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20240924-96829-27hs17/bootsnap
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/bootsnap-1.18.4/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20240924-33252-fir7vg sitelibdir\=./.gem.20240924-33252-fir7vg clean
+make DESTDIR\= sitearchdir\=./.gem.20240924-96829-27hs17 sitelibdir\=./.gem.20240924-96829-27hs17 clean
