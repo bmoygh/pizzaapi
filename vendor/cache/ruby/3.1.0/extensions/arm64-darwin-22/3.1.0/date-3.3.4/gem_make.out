@@ -1,0 +1,26 @@
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/date-3.3.4/ext/date
+/Users/bmoy/.asdf/installs/ruby/3.1.4/bin/ruby extconf.rb
+checking for rb_category_warn()... yes
+checking for timezone in time.h with  -Werror... yes
+checking for altzone in time.h with  -Werror... no
+creating Makefile
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/date-3.3.4/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20240924-33252-3lcjue sitelibdir\=./.gem.20240924-33252-3lcjue clean
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/date-3.3.4/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20240924-33252-3lcjue sitelibdir\=./.gem.20240924-33252-3lcjue
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/date-3.3.4/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20240924-33252-3lcjue sitelibdir\=./.gem.20240924-33252-3lcjue install
+/opt/homebrew/bin/ginstall -c -m 0755 date_core.bundle ./.gem.20240924-33252-3lcjue
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/date-3.3.4/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20240924-33252-3lcjue sitelibdir\=./.gem.20240924-33252-3lcjue clean
