@@ -14,10 +14,10 @@ checking for sys/resource.h... yes
 creating Makefile
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/nio4r-2.7.3/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20240924-40084-4lnu4t sitelibdir\=./.gem.20240924-40084-4lnu4t clean
+make DESTDIR\= sitearchdir\=./.gem.20240924-99008-t7uges sitelibdir\=./.gem.20240924-99008-t7uges clean
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/nio4r-2.7.3/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20240924-40084-4lnu4t sitelibdir\=./.gem.20240924-40084-4lnu4t
+make DESTDIR\= sitearchdir\=./.gem.20240924-99008-t7uges sitelibdir\=./.gem.20240924-99008-t7uges
 compiling bytebuffer.c
 compiling monitor.c
 compiling nio4r_ext.c
@@ -362,8 +362,8 @@ ld: warning: -multiply_defined is obsolete
 ld: warning: ignoring duplicate libraries: '-lruby.3.1'
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/nio4r-2.7.3/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20240924-40084-4lnu4t sitelibdir\=./.gem.20240924-40084-4lnu4t install
-/opt/homebrew/bin/ginstall -c -m 0755 nio4r_ext.bundle ./.gem.20240924-40084-4lnu4t
+make DESTDIR\= sitearchdir\=./.gem.20240924-99008-t7uges sitelibdir\=./.gem.20240924-99008-t7uges install
+/opt/homebrew/bin/ginstall -c -m 0755 nio4r_ext.bundle ./.gem.20240924-99008-t7uges
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/nio4r-2.7.3/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20240924-40084-4lnu4t sitelibdir\=./.gem.20240924-40084-4lnu4t clean
+make DESTDIR\= sitearchdir\=./.gem.20240924-99008-t7uges sitelibdir\=./.gem.20240924-99008-t7uges clean

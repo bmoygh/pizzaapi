@@ -14,10 +14,10 @@ checking for whether -DSTR_UMINUS_DEDUPE_FROZEN=1 is accepted as CFLAGS... yes
 creating Makefile
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/msgpack-1.7.2/ext/msgpack
-make DESTDIR\= sitearchdir\=./.gem.20240924-40084-6c389t sitelibdir\=./.gem.20240924-40084-6c389t clean
+make DESTDIR\= sitearchdir\=./.gem.20240924-99008-tybz6g sitelibdir\=./.gem.20240924-99008-tybz6g clean
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/msgpack-1.7.2/ext/msgpack
-make DESTDIR\= sitearchdir\=./.gem.20240924-40084-6c389t sitelibdir\=./.gem.20240924-40084-6c389t
+make DESTDIR\= sitearchdir\=./.gem.20240924-99008-tybz6g sitelibdir\=./.gem.20240924-99008-tybz6g
 compiling buffer.c
 compiling buffer_class.c
 compiling extension_value_class.c
@@ -35,8 +35,8 @@ ld: warning: -multiply_defined is obsolete
 ld: warning: ignoring duplicate libraries: '-lruby.3.1'
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/msgpack-1.7.2/ext/msgpack
-make DESTDIR\= sitearchdir\=./.gem.20240924-40084-6c389t sitelibdir\=./.gem.20240924-40084-6c389t install
-/opt/homebrew/bin/ginstall -c -m 0755 msgpack.bundle ./.gem.20240924-40084-6c389t/msgpack
+make DESTDIR\= sitearchdir\=./.gem.20240924-99008-tybz6g sitelibdir\=./.gem.20240924-99008-tybz6g install
+/opt/homebrew/bin/ginstall -c -m 0755 msgpack.bundle ./.gem.20240924-99008-tybz6g/msgpack
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/msgpack-1.7.2/ext/msgpack
-make DESTDIR\= sitearchdir\=./.gem.20240924-40084-6c389t sitelibdir\=./.gem.20240924-40084-6c389t clean
+make DESTDIR\= sitearchdir\=./.gem.20240924-99008-tybz6g sitelibdir\=./.gem.20240924-99008-tybz6g clean

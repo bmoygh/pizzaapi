@@ -3,18 +3,18 @@ current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/web
 creating Makefile
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20240924-40084-g5knor sitelibdir\=./.gem.20240924-40084-g5knor clean
+make DESTDIR\= sitearchdir\=./.gem.20240924-99008-bta42m sitelibdir\=./.gem.20240924-99008-bta42m clean
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20240924-40084-g5knor sitelibdir\=./.gem.20240924-40084-g5knor
+make DESTDIR\= sitearchdir\=./.gem.20240924-99008-bta42m sitelibdir\=./.gem.20240924-99008-bta42m
 compiling websocket_mask.c
 linking shared-object websocket_mask.bundle
 ld: warning: -multiply_defined is obsolete
 ld: warning: ignoring duplicate libraries: '-lruby.3.1'
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20240924-40084-g5knor sitelibdir\=./.gem.20240924-40084-g5knor install
-/opt/homebrew/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20240924-40084-g5knor
+make DESTDIR\= sitearchdir\=./.gem.20240924-99008-bta42m sitelibdir\=./.gem.20240924-99008-bta42m install
+/opt/homebrew/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20240924-99008-bta42m
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.6/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20240924-40084-g5knor sitelibdir\=./.gem.20240924-40084-g5knor clean
+make DESTDIR\= sitearchdir\=./.gem.20240924-99008-bta42m sitelibdir\=./.gem.20240924-99008-bta42m clean
