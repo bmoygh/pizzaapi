@@ -3,10 +3,10 @@ current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/bye
 creating Makefile
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
-make DESTDIR\= sitearchdir\=./.gem.20240924-96829-jdhgpc sitelibdir\=./.gem.20240924-96829-jdhgpc clean
+make DESTDIR\= sitearchdir\=./.gem.20240924-40084-f0apkg sitelibdir\=./.gem.20240924-40084-f0apkg clean
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
-make DESTDIR\= sitearchdir\=./.gem.20240924-96829-jdhgpc sitelibdir\=./.gem.20240924-96829-jdhgpc
+make DESTDIR\= sitearchdir\=./.gem.20240924-40084-f0apkg sitelibdir\=./.gem.20240924-40084-f0apkg
 compiling breakpoint.c
 compiling byebug.c
 compiling context.c
@@ -17,8 +17,8 @@ ld: warning: -multiply_defined is obsolete
 ld: warning: ignoring duplicate libraries: '-lruby.3.1'
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
-make DESTDIR\= sitearchdir\=./.gem.20240924-96829-jdhgpc sitelibdir\=./.gem.20240924-96829-jdhgpc install
-/opt/homebrew/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20240924-96829-jdhgpc/byebug
+make DESTDIR\= sitearchdir\=./.gem.20240924-40084-f0apkg sitelibdir\=./.gem.20240924-40084-f0apkg install
+/opt/homebrew/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20240924-40084-f0apkg/byebug
 
 current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
-make DESTDIR\= sitearchdir\=./.gem.20240924-96829-jdhgpc sitelibdir\=./.gem.20240924-96829-jdhgpc clean
+make DESTDIR\= sitearchdir\=./.gem.20240924-40084-f0apkg sitelibdir\=./.gem.20240924-40084-f0apkg clean
