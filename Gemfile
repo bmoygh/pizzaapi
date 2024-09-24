@@ -12,7 +12,7 @@ gem 'puma', '~> 5.0'
 gem 'awesome_print'
 gem 'sass-rails', '>= 6.0.0'
 gem 'sprockets', '~> 4.0'
-gem "nokogiri", "~> 1.13"
+gem "nokogiri", "~> 1.16.7"
 gem 'pry-rails', :group => :development
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'
