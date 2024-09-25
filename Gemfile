@@ -10,7 +10,7 @@ gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 gem 'awesome_print'
-gem 'nokogiri', '>= 1.15.2', platforms: [:x86_64_linux]
+gem 'nokogiri', '>= 1.15.2'
 
 gem 'pry-rails', :group => :development
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
