@@ -16,7 +16,7 @@
     "menu_sections": [
         {
             "external_id": "salads-standard",
-            "name": "Salads",
+            "name": "Salads (Standard Only)",
             "internal_name": "Salads",
             "description": "",
             "items": [
@@ -35,7 +35,7 @@
         },
         {
             "external_id": "salads-catering",
-            "name": "Salads (Catering)",
+            "name": "Salads (Catering Only)",
             "internal_name": "Salads",
             "description": "",
             "items": [
@@ -54,12 +54,12 @@
         },
         {
             "external_id": "fast-pack-mix",
-            "name": "Fast Packs",
+            "name": "Fast Packs (Standard AND Catering)",
             "internal_name": "Fast Packs",
             "description": "",
             "items": [
                 "hotdog_s_catering",
-                " Plant-based-Garden-Dogs-mix"
+                "Plant-based-Garden-Dogs-mix"
             ],
             "availability_ranges": [],
             "schedule_ids": [],
@@ -73,7 +73,7 @@
         },
         {
             "external_id": "desser-mix",
-            "name": "Desserts & Beverages",
+            "name": "Desserts & Beverages (Standard AND Catering)",
             "internal_name": "Desserts & Beverages",
             "description": "",
             "items": [
@@ -370,10 +370,10 @@
         },
         {
             "external_id": "caesar-salad",
-            "name": "Caesar Salad - Catering Only (Serves 8-20)",
-            "internal_name": "Caesar Salad (Serves 8-20)",
-            "description": "Small serves 8-10 sides. Large serves 16-20 sides. Crisp romaine, parmesan cheese and croutons. Served with our Caesar Dressing on the side and includes serving utensils.\r\n",
-            "price": 0.0,
+            "name": "Caesar Salad (Serves 1)",
+            "internal_name": "Caesar Salad (Serves 1)",
+            "description": "Small serves 1 sides. Crisp romaine, parmesan cheese and croutons. Served with our Caesar Dressing on the side and includes serving utensils.\r\n",
+            "price": 10.0,
             "tax_rate": null,
             "tax_category": {
                 "code": "102",
@@ -432,7 +432,7 @@
             "maximum_order_quantity": null,
             "calorie_content": 280,
             "media": {
-                "source_url": "public/assets/sub.avif"
+                "source_url": "https://ghpizzaapi.herokuapp.com/public/assets/sub.avif"
             },
             "metadata": null,
             "availability_ranges": [],
