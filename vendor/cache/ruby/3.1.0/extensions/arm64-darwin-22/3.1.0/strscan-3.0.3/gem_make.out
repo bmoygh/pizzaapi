@@ -1,0 +1,16 @@
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/strscan-3.0.3/ext/strscan
+/Users/bmoy/.asdf/installs/ruby/3.1.4/bin/ruby -I /Users/bmoy/.asdf/installs/ruby/3.1.4/lib/ruby/3.1.0 extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+creating Makefile
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/strscan-3.0.3/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20230627-81971-8otjoa sitelibdir\=./.gem.20230627-81971-8otjoa clean
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/strscan-3.0.3/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20230627-81971-8otjoa sitelibdir\=./.gem.20230627-81971-8otjoa
+compiling strscan.c
+linking shared-object strscan.bundle
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/strscan-3.0.3/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20230627-81971-8otjoa sitelibdir\=./.gem.20230627-81971-8otjoa install
+/opt/homebrew/bin/ginstall -c -m 0755 strscan.bundle ./.gem.20230627-81971-8otjoa

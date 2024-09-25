@@ -1,0 +1,15 @@
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/bmoy/.asdf/installs/ruby/3.1.4/bin/ruby -I /Users/bmoy/.asdf/installs/ruby/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230627-81971-78x01w sitelibdir\=./.gem.20230627-81971-78x01w clean
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230627-81971-78x01w sitelibdir\=./.gem.20230627-81971-78x01w
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/bmoy/Desktop/pizzaapi/vendor/cache/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230627-81971-78x01w sitelibdir\=./.gem.20230627-81971-78x01w install
+/opt/homebrew/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20230627-81971-78x01w
