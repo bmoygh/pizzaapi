@@ -5,9 +5,7 @@ class PayloadsController < ApplicationController
   def index
     @payloads = Payload.all.order("created_at DESC")
 
-    # render json: @payloads
-    # Render HTML view
-    render :index
+    render json: @payloads
   end
 
   # GET /payloads/1
