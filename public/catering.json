@@ -275,7 +275,7 @@
             "maximum_order_quantity": null,
             "calorie_content": 320,
             "media": {
-                "source_url": "https://s3.amazonaws.com/cateringmenu.bucket.test/menu_images/cake2.avif"
+                "source_url": "https://s3.amazonaws.com/cateringmenu.bucket.test/menu_images/cake1.avif"
             },
             "metadata": null,
             "availability_ranges": [],
@@ -432,7 +432,7 @@
             "maximum_order_quantity": null,
             "calorie_content": 280,
             "media": {
-                "source_url": "https://ghpizzaapi.herokuapp.com/public/assets/sub.avif"
+                "source_url": "https://s3.amazonaws.com/cateringmenu.bucket.test/menu_images/sub.avif"
             },
             "metadata": null,
             "availability_ranges": [],
