@@ -118,7 +118,7 @@
             "maximum_order_quantity": null,
             "calorie_content": 210,
             "media": {
-                "source_url": "https://olo-images-live.imgix.net/f2/f230a68d76724ee8998149ac9ea7ebf9.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=62e8b9b406ec25eba73bb8a0c564fb36"
+                "source_url": "https://s3.amazonaws.com/cateringmenu.bucket.test/menu_images/salad1.avif"
             },
             "metadata": null,
             "availability_ranges": [],
@@ -157,7 +157,7 @@
             "maximum_order_quantity": null,
             "calorie_content": 210,
             "media": {
-                "source_url": "https://olo-images-live.imgix.net/67/675ddb6d896a4471bd322a25ab72f8cb.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=23593b9959e102bc12eeba2d0d042091"
+                "source_url": "https://s3.amazonaws.com/cateringmenu.bucket.test/menu_images/salad2.avif"
             },
             "metadata": null,
             "availability_ranges": [],
@@ -196,7 +196,7 @@
             "maximum_order_quantity": null,
             "calorie_content": 290,
             "media": {
-                "source_url": "https://olo-images-live.imgix.net/e5/e50cea880b164f9180786a483a5f5417.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=2f13445c7e397cd0469fbc25f8a318d3"
+                "source_url": "https://s3.amazonaws.com/cateringmenu.bucket.test/menu_images/drinks.avif"
             },
             "metadata": null,
             "availability_ranges": [],
@@ -216,7 +216,7 @@
             "name": "Birthday Cake - Catering Only (Serves 10)",
             "internal_name": "Birthday Cake (Serves 10)",
             "description": "Serves 10. Celebrate your birthday with Portillo's homemade chocolate cake topped with Portillo's candles! Kit includes one Chocolate Cake and one package of Portillo's candles. Party decorations not included.\r\n",
-            "price": 33.34,
+            "price": 330.34,
             "tax_rate": null,
             "tax_category": {
                 "code": "102",
@@ -236,7 +236,7 @@
             "maximum_order_quantity": null,
             "calorie_content": 320,
             "media": {
-                "source_url": "https://olo-images-live.imgix.net/7c/7c938fcaff314b9eaac3579f14b8a76c.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=dbbb5e0eb3a1af150145e76b2b46db16"
+                "source_url": "https://s3.amazonaws.com/cateringmenu.bucket.test/menu_images/cake1.avif"
             },
             "metadata": null,
             "availability_ranges": [],
@@ -275,7 +275,7 @@
             "maximum_order_quantity": null,
             "calorie_content": 320,
             "media": {
-                "source_url": "https://olo-images-live.imgix.net/56/5669381937c44530ae6c67bfd6d25af6.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=b67625fce1367fd94d9fcc375d80305f"
+                "source_url": "https://s3.amazonaws.com/cateringmenu.bucket.test/menu_images/cake1.avif"
             },
             "metadata": null,
             "availability_ranges": [],
@@ -294,7 +294,7 @@
             "name": "Chopped Salad (Serves 1)",
             "internal_name": "Chopped Salad (Serves 1)",
             "description": "Small serves 1. Large serves 2 side. Chopped romaine, iceberg lettuce and red cabbage with diced chicken breast, ditalini pasta, bacon,  , Gorgonzola cheese and green onion. Served with our House Dressing on the side and includes serving utensils.",
-            "price": 210.0,
+            "price": 10.0,
             "tax_rate": null,
             "tax_category": {
                 "code": "102",
@@ -314,7 +314,7 @@
             "maximum_order_quantity": null,
             "calorie_content": 400,
             "media": {
-                "source_url": "https://olo-images-live.imgix.net/54/54927068071247df88b9fe8a345f89cd.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=325b870d8a0145e9ec0828ffef18c8b7"
+                "source_url": "https://s3.amazonaws.com/cateringmenu.bucket.test/menu_images/salad1.avif"
             },
             "metadata": null,
             "availability_ranges": [],
@@ -353,7 +353,7 @@
             "maximum_order_quantity": null,
             "calorie_content": 435,
             "media": {
-                "source_url": "https://olo-images-live.imgix.net/d3/d34b16b25b9e4f61a5a29d4d5aec2b13.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=e680f4f458462dad1498794c08aba066"
+                "source_url": "https://s3.amazonaws.com/cateringmenu.bucket.test/menu_images/sub.avif"
             },
             "metadata": null,
             "availability_ranges": [],
@@ -393,7 +393,7 @@
             "maximum_order_quantity": null,
             "calorie_content": 280,
             "media": {
-                "source_url": "https://olo-images-live.imgix.net/f2/f2e1db8f39c9444aa5fb7dccf5ec9035.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=10f2905cdf87b6163c5478d7f9593064"
+                "source_url": "https://s3.amazonaws.com/cateringmenu.bucket.test/menu_images/salad2.avif"
             },
             "metadata": null,
             "availability_ranges": [],
@@ -408,7 +408,7 @@
             "serving_size": null
         },
         {
-            "external_id": " Plant-based-Garden-Dogs-mix",
+            "external_id": "Plant-based-Garden-Dogs-mix",
             "name": "Plant-based Garden Dogs (Serves 8)",
             "internal_name": "Plant-based Garden Dogs (Serves 8)",
             "description": "Serves 8. Plant-based hot dogs served plain on poppy seed buns, with all toppings on the side. Made with 100% plant-based protein. The Garden Dog is crafted for Portillo's by Field Roast. Condiments include: mustard, relish, celery salt, freshly chopped onions, sliced red ripe  , kosher pickle, and sport peppers.\r\n\r\n\r\n\r\n",
@@ -432,7 +432,7 @@
             "maximum_order_quantity": null,
             "calorie_content": 280,
             "media": {
-                "source_url": "https://ghpizzaapi.herokuapp.com/public/assets/sub.avif"
+                "source_url": "https://s3.amazonaws.com/cateringmenu.bucket.test/menu_images/sub.avif"
             },
             "metadata": null,
             "availability_ranges": [],
